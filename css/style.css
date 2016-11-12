@@ -346,11 +346,18 @@ h2 {
 }
 .header__logo {
   display: block;
+  max-width: 100%;
   margin: 20px auto;
 }
 @media (min-width: 768px) {
   .header__logo {
-    margin: 20px 0;
+    margin: -22px 0 -22px -80px;
+    max-width: none;
+  }
+}
+@media (min-width: 1000px) {
+  .header__logo {
+    margin: -12px 0 -12px -80px;
   }
 }
 .contacts {
@@ -470,12 +477,11 @@ h2 {
   padding: 0 15px;
   font-size: 16px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 36px;
 }
 @media (min-width: 768px) {
   .main__slogan {
     font-size: 24px;
-    line-height: 36px;
   }
 }
 .main__place {
@@ -771,23 +777,13 @@ h2 {
   font-size: 14px;
   line-height: 21px;
   color: #313131;
-  min-width: 768px;
-}
-@media (max-width: 767px) {
-  .price__table-wrap {
-    width: 100%;
-    overflow: auto;
-  }
 }
 .price__table tr:hover + .addition,
 .price__table tr:hover + .addition + .addition,
 .price__table tr:hover + .addition + .addition + .addition {
   display: table-row;
-}
-.price__table tbody:hover + .addition,
-.price__table tbody:hover + .addition + .addition,
-.price__table tbody:hover + .addition + .addition + .addition {
-  display: table-row-group;
+  height: 50px;
+  opacity: 1;
 }
 .price__table th {
   padding: 14px 10px 15px;
@@ -813,7 +809,8 @@ h2 {
 }
 .price__table .addition {
   display: none;
-  transition: display 1s linear 1s;
+  opacity: 0;
+  transition: all 1s linear;
 }
 .price__table .x16 {
   font-size: 16px;
@@ -877,7 +874,6 @@ h2 {
   font-size: 14px;
   font-weight: 400;
   line-height: 21px;
-  cursor: pointer;
 }
 @media (min-width: 768px) {
   .work__filter {

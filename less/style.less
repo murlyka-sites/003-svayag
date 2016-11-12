@@ -139,10 +139,16 @@ h2 {
 
 	&__logo {
 		display: block;
+		max-width: 100%;
 		margin: 20px auto;
 		
 		@media (min-width: @screen-sm-min) {
-			margin: 20px 0;
+			margin: -22px 0 -22px -80px;
+			max-width: none;
+		}
+
+		@media (min-width: @screen-md-min) {
+			margin: -12px 0 -12px -80px;
 		}
 	}
 }
