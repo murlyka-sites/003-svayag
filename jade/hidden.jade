@@ -1,0 +1,29 @@
+.hidden
+	.popup#call
+		h4.popup__title
+			| Обратный звонок
+		form(action="mail.php", method="post")
+			.form-group
+				input.form-control.input--name(type="text", placeholder="Имя", name="name", required)
+			.form-group
+				input.form-control.input--phone(type="text", placeholder="Телефон", name="phone", required)
+			button.btn.btn-white.btn-block.popup__btn(type="submit")
+				| Заказать
+	.popup#mail
+		h4.popup__title
+			| Заказ 
+			br
+			| Обратный звонок
+		form(action="mail.php", method="post")
+			.form-group
+				input.form-control.input--name(type="text", placeholder="Имя", name="name", required)
+			.form-group
+				input.form-control.input--phone(type="email", placeholder="Email", name="phone", required)
+			button.btn.btn-white.btn-block.popup__btn(type="submit")
+				| Заказать
+	.popup#success
+		h5.popup__title
+			| Спасибо!
+			br
+			| Ждите звонка!
+a.toUp#toTop
