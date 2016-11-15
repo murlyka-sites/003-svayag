@@ -1047,6 +1047,78 @@ h2 {
 	}
 }
 
+.partners {
+	color: #242424;
+	text-align: center;
+	
+	&__title {
+		margin: 50px 0 45px;
+	}
+
+	&__slider {
+		padding: 0 60px;
+		margin: 0 0 40px;
+		
+
+		
+		@media (min-width: @screen-md-min) {
+			padding: 0 160px;
+		}
+	}
+
+	&__slider .slick {
+		
+		&-arrow {
+			position: absolute;
+			top: 50%;
+			margin-top: -30px;
+			background-color: #e1e1e1;
+			
+
+			&:hover, &:active, &:focus {
+				background-image: linear-gradient(to top, rgba(0, 0, 0, 0.15) 0%, rgba(63, 63, 63, 0.15) 100%);
+			}
+		}	
+
+		&-prev {
+			left: 0;
+		}
+
+		&-next {
+			right: 0;
+		}
+		
+	}
+
+	&__slide {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		min-height: 120px;
+	}
+	
+	&__logo {
+		margin: auto;
+		opacity: 0.5;
+		zoom: 0.75;
+		-webkit-filter: grayscale(100%);
+		-moz-filter: grayscale(100%);
+		-ms-filter: grayscale(100%);
+		-o-filter: grayscale(100%);
+		filter: grayscale(100%) ;   
+		
+		&:hover {
+			-webkit-filter: none;
+			-moz-filter: none;
+			-ms-filter: none;
+			-o-filter: none;
+			filter: none;
+			zoom: 1;
+			opacity: 1;
+		}
+	}
+}
+
 .toUp {
 	position: fixed;
 	z-index: 9999;

@@ -1163,6 +1163,64 @@ h2 {
     margin-right: 0;
   }
 }
+.partners {
+  color: #242424;
+  text-align: center;
+}
+.partners__title {
+  margin: 50px 0 45px;
+}
+.partners__slider {
+  padding: 0 60px;
+  margin: 0 0 40px;
+}
+@media (min-width: 1000px) {
+  .partners__slider {
+    padding: 0 160px;
+  }
+}
+.partners__slider .slick-arrow {
+  position: absolute;
+  top: 50%;
+  margin-top: -30px;
+  background-color: #e1e1e1;
+}
+.partners__slider .slick-arrow:hover,
+.partners__slider .slick-arrow:active,
+.partners__slider .slick-arrow:focus {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.15) 0%, rgba(63, 63, 63, 0.15) 100%);
+}
+.partners__slider .slick-prev {
+  left: 0;
+}
+.partners__slider .slick-next {
+  right: 0;
+}
+.partners__slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 120px;
+}
+.partners__logo {
+  margin: auto;
+  opacity: 0.5;
+  zoom: 0.75;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+.partners__logo:hover {
+  -webkit-filter: none;
+  -moz-filter: none;
+  -ms-filter: none;
+  -o-filter: none;
+  filter: none;
+  zoom: 1;
+  opacity: 1;
+}
 .toUp {
   position: fixed;
   z-index: 9999;

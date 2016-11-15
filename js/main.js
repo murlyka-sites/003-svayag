@@ -8,9 +8,9 @@ $(document).ready(function() {
 	});
 
 	$("#work__slider-2").on("init", function(event, slick, direction) {
-  		setTimeout(function() {
-  			$("#tab-1").addClass("hidden");
-  		}, 2500)
+			setTimeout(function() {
+				$("#tab-1").addClass("hidden");
+			}, 2500)
 	});
 
 	$("#work__slider-2").slick({
@@ -26,13 +26,9 @@ $(document).ready(function() {
 		asNavFor: ".reviews__names"
 	});
 
-
-
 	$(".reviews__names").slick({
 		asNavFor: ".reviews__slider"
 	});
-
-	
 
 	$(".work__filters .work__filter").click(function() {
 		var $this = $(this),
@@ -51,7 +47,20 @@ $(document).ready(function() {
 		return false;
 	});
 
-
+	$(".partners__slider").slick({
+		slidesToShow: 3,
+		responsive: [
+		{
+			breakpoint: 768,
+			settings: {
+				slidesToShow: 2
+			},
+			breakpoint: 480,
+			settings: {
+				slidesToShow: 1
+			}
+		}]
+	});
 	
 
 
