@@ -7,12 +7,8 @@ $(document).ready(function() {
 		asNavFor: "#work__slider-2"
 	});
 
-	$("#work__slider-2").on("init", function(event, slick, direction) {
-			setTimeout(function() {
-				$("#tab-1").addClass("hidden");
-			}, 2500)
-	});
-
+	$("#tab-1").addClass("hidden");
+	
 	$("#work__slider-2").slick({
 		centerMode: true,
 		variableWidth: true,

@@ -234,6 +234,16 @@ h2 {
 		}
 
 		&--phone {
+			@media (max-width: @screen-xs-max) {
+				font-size: 20px;
+				
+				a {
+					display: inline-block;
+					padding: 4px;
+				}
+
+			}
+
 			&:before {
 				.i-phone();
 				
@@ -298,7 +308,7 @@ h2 {
 		}
 		
 		&-text {
-			padding: 36px;
+			padding: 36px 30px;
 			margin: 0;
 		}
 	}
@@ -312,18 +322,6 @@ h2 {
 	&__title {
 		margin-top: 45px;
 		margin-bottom: 28px;
-	}
-
-	&__slogan {
-		margin-bottom: 50px;
-		color: #313131;
-		font-size: 14px;
-		font-weight: 700;
-		line-height: 27px;
-		
-		@media (min-width: @screen-sm-min) {
-			font-size: 18px;
-		}
 	}
 
 	&__items {
@@ -405,10 +403,9 @@ h2 {
 }
 
 .choice {
-	padding-bottom: 30px;
+	padding-bottom: 60px;
 	
 	@media (min-width: @screen-sm-min) {
-		height: 300px;
 		background: url(../images/bg/choice.jpg) center center / auto no-repeat white;
 	}
 	
@@ -419,10 +416,6 @@ h2 {
 		font-size: 18px;
 		font-weight: 400;
 		line-height: 27px;
-		
-		@media (min-width: @screen-sm-min) {
-			margin-right: -20px;
-		}
 	}
 
 	&__btn {
@@ -554,20 +547,11 @@ h2 {
 }
 
 .think {
+	padding-top: 100px;
 	padding-bottom: 240px;
 	background: url(../images/bg/well.jpg) center center / cover no-repeat #71b100;
 	text-align: center;
 	
-	&__slogan {
-		margin-top: 54px;
-		margin-bottom: 33px;
-		color: white;
-		font-size: 18px;
-		font-weight: 700;
-		line-height: 27px;
-		text-transform: uppercase;
-	}
-
 	&__btn {
 		width: 300px;
 	}
@@ -605,22 +589,25 @@ h2 {
 	}
 
 	&__table {
-		width: 100%;
+		width: 768px;
 		margin-bottom: 55px;
 		text-align: center;
 		font-size: 14px;
 		line-height: 21px;
 		color: #313131;
 		
-		tr:hover + .addition,
-		tr:hover + .addition + .addition,
-		tr:hover + .addition + .addition + .addition {
-			display: table-row;
-			height: 50px;
-			opacity: 1;
-			
+		@media (min-width: @screen-sm-min) {
+			width: 100%;
 		}
 		
+
+			
+		&-wrap {
+			@media (max-width: @screen-xs-max) {
+				overflow: auto;	
+			}
+		}
+
 		th {
 			padding: 14px 10px 15px;
 			background-color: #71b100;
@@ -724,6 +711,12 @@ h2 {
 		font-size: 14px;
 		font-weight: 400;
 		line-height: 21px;
+		cursor: pointer;
+		
+		@media (max-width: @screen-xs-max) {
+			display: inline-block;
+			padding: 6px;
+		}
 		
 		@media (min-width: @screen-sm-min) {
 			display: inline;
@@ -731,6 +724,7 @@ h2 {
 		
 		&.active {
 			color: #313131;
+			cursor: default;
 		}
 		
 		&:hover,
@@ -746,6 +740,11 @@ h2 {
 		width: 260px;
 		height: 180px;
 		margin: 10px 10px 20px;
+		
+		&-img {
+			width: 260px;
+			height: 180px;
+		}
 		
 		&-text {
 			position: absolute;
@@ -920,6 +919,7 @@ h2 {
 			line-height: 24px;
 			
 			@media (min-width: @screen-sm-min) {
+				padding-top: 20px;
 				white-space: pre-line;	
 			}
 		}

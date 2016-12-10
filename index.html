@@ -10,18 +10,7 @@
     <link rel="icon" href="favicon.png">
     <link rel="SHORTCUT ICON" href="favicon.png">
     <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="bower/slick-carousel/slick/slick.css">
-    <link rel="stylesheet" href="bower/fancybox/source/jquery.fancybox.css">
-    <link rel="stylesheet" href="bower/animate.css/animate.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&amp;subset=cyrillic">
-    <script src="bower/jquery/dist/jquery.min.js"></script>
-    <script src="bower/slick-carousel/slick/slick.min.js"></script>
-    <script src="bower/fancybox/source/jquery.fancybox.js"></script>
-    <script src="bower/jquery.maskedinput/dist/jquery.maskedinput.min.js"></script>
-    <script src="js/jquery.form.min.js"></script>
-    <script src="bower/wow/dist/wow.min.js"></script>
-    <script src="js/main.js"></script><!-- Yandex.Metrika counter -->
+    <link rel="stylesheet" href="css/style.css"><!-- Yandex.Metrika counter -->
 <script type="text/javascript">
     (function (d, w, c) {
         (w[c] = w[c] || []).push(function() {
@@ -57,7 +46,7 @@
         <header class="header">
           <div class="container">
             <div class="row">
-              <div class="col-xs-14 col-sm-2 col-lg-2"><img src="images/logo.svg" alt="Логотип: Сваяж" width="180" height="80" class="header__logo"></div>
+              <div class="col-xs-14 col-sm-2 col-lg-2"><img class="header__logo" src="images/logo.svg" alt="Логотип: Сваяж" width="180" height="80"></div>
               <div class="col-xs-14 col-sm-12 col-lg-offset-2 col-lg-10">
                 <ul class="contacts header__contacts">
                   <li class="contacts__item contacts__item--target">г. Нижний Новгород, <br>пр-кт Ленина, д. 11, офис 416</li>
@@ -75,13 +64,10 @@
         <div class="row">
           <div class="col-xs-14">
             <div class="main__figure clearfix">
-              <h1 data-wow-duration="2s" class="main__title text-uppercase wow bounceInUp">Надежный фундамент</h1>
-              <p data-wow-delay="0.3s" data-wow-duration="2s" class="main__slogan text-uppercase wow bounceInLeft">Строим надежные фундаменты для дач и<br>коттеджей круглый год за 1 день</p>
+              <h1 class="main__title text-uppercase wow bounceInUp" data-wow-duration="2s">Строим надежные фундаменты</h1>
+              <p class="main__slogan text-uppercase wow bounceInLeft" data-wow-delay="0.3s" data-wow-duration="2s">для дач и коттеджей круглый год за 1 день</p>
               <div class="main__place">
-                <p data-wow-delay="0.3s" data-wow-duration="2s" class="main__place-text wow bounceInLeft">
-                  Конечно, Вы можете не задумываться о жизни через столетие в целом и своих 
-                  наследниках в частности. Но если цены схожи, почему не сделать «на века»? <br>Закажите забивные ЖБ сваи сразу или листайте дальше, чтобы узнать больше
-                </p><a href="#call" data-wow-iteration="3" data-wow-duration="2s" class="btn btn-green btn-block btn-arrow fancy wow pulse">Заказать вековой <br class="visible-xs">фундамент</a>
+                <p class="main__place-text wow bounceInLeft" data-wow-delay="0.3s" data-wow-duration="2s">Мы произведем все необходимые расчеты и предложим Вам проект надежного фундамента который поможет сэкономить Вам время, деньги и нервы. </p><a class="btn btn-green btn-block btn-arrow fancy wow pulse" href="#call" data-wow-iteration="3" data-wow-duration="2s">заказать бесплатную <br class="visible-xs">консультацию</a>
               </div>
             </div>
           </div>
@@ -92,17 +78,16 @@
       <div class="container">
         <div class="row">
           <div class="col-xs-14">
-            <h2 data-wow-duration="2s" class="future__title text-uppercase header-decoration wow bounce">Обозримое будущее</h2>
-            <p data-wow-duration="2s" class="future__slogan text-uppercase wow bounceInLeft">Давайте заглянем не на столетие, а на 1,5-2 десятка лет вперёд. <br>Что бы Вы сейчас ни запланировали строить:</p>
+            <h2 class="future__title text-uppercase header-decoration wow bounce" data-wow-duration="2s">ОБЛАСТЬ ПРИМЕНЕНИЯ НАШИХ ФУНДАМЕНТОВ</h2>
             <div class="future__items">
-              <div data-wow-duration="2s" class="future__item future__item-1 wow bounceInLeft">Береговое <br>укрепление, пирс <br>или причал</div>
-              <div data-wow-delay="0.2s" data-wow-duration="2s" class="future__item future__item-2 wow bounceInLeft">Кирпичный дом, <br>гараж или ангар</div>
-              <div data-wow-delay="0.4s" data-wow-duration="2s" class="future__item future__item-3 wow bounceInLeft">Здание из <br>пеноблока или <br>газобетона</div>
-              <div data-wow-delay="0.6s" data-wow-duration="2s" class="future__item future__item-4 wow bounceInLeft">Деревянный <br>дом или баню</div>
-              <div data-wow-delay="0.8s" data-wow-duration="2s" class="future__item future__item-5 wow bounceInLeft">Коммерческое <br>сооружение <br>или павильон</div>
-              <div data-wow-delay="1s" data-wow-duration="2s" class="future__item future__item-6 wow bounceInLeft">Промышленное <br>строение или <br>что-либо ещё</div>
+              <div class="future__item future__item-1 wow bounceInLeft" data-wow-duration="2s">Береговое <br>укрепление, пирс <br>или причал</div>
+              <div class="future__item future__item-2 wow bounceInLeft" data-wow-delay="0.2s" data-wow-duration="2s">Кирпичный дом, <br>гараж или ангар</div>
+              <div class="future__item future__item-3 wow bounceInLeft" data-wow-delay="0.4s" data-wow-duration="2s">Здание из <br>пеноблока или <br>газобетона</div>
+              <div class="future__item future__item-4 wow bounceInLeft" data-wow-delay="0.6s" data-wow-duration="2s">Деревянный <br>дом или баню</div>
+              <div class="future__item future__item-5 wow bounceInLeft" data-wow-delay="0.8s" data-wow-duration="2s">Коммерческое <br>сооружение <br>или павильон</div>
+              <div class="future__item future__item-6 wow bounceInLeft" data-wow-delay="1s" data-wow-duration="2s">Промышленное <br>строение или <br>что-либо ещё</div>
             </div>
-            <h2 data-wow-duration="2s" class="future__second-title text-uppercase wow bounceInDown">с 90% вероятностью <br>Вам уже придётся его укреплять! </h2>
+            <h2 class="future__second-title text-uppercase wow bounceInDown" data-wow-duration="2s">МЫ СТРОИМ ФУНДАМЕНТЫ НА ЗАБИВНЫХ ЖБ СВАЯХ</h2>
           </div>
         </div>
       </div>
@@ -111,11 +96,7 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-11 col-lg-8">
-            <div data-wow-duration="2s" class="choice__slogan wow bounceInLeft">
-              15 лет – это, конечно, тоже не завтра. Но представьте, что они 
-              прошли. Захотите вы заниматься укреплением фундамента 
-              или вернуться в прошлое за другим выбором?
-            </div><a href="#call" data-wow-iteration="3" data-wow-duration="2s" class="btn btn-green btn-arrow choice__btn fancy wow pulse">Правильный выбор</a>
+            <div class="choice__slogan wow bounceInLeft" data-wow-duration="2s">Забивные сваи это изделия в виде мощного стержня квадратного сечения, имеющие с одной стороны заостренный конец. Сваи изготавливаются из бетона класса В 22,5-В 25 на гранитном щебне. Данная технология положительно оценена Госстроем РФ.</div><a class="btn btn-green btn-arrow choice__btn fancy wow pulse" href="#call" data-wow-iteration="3" data-wow-duration="2s">ЗАДАТЬ ВОПРОС</a>
           </div>
         </div>
       </div>
@@ -124,19 +105,19 @@
       <div class="container">
         <div class="row">
           <div class="col-xs-14">
-            <h2 data-wow-duration="2s" class="story__title text-uppercase header-decoration wow bounce">Немного истории</h2>
+            <h2 class="story__title text-uppercase header-decoration wow bounce" data-wow-duration="2s">Немного истории</h2>
             <div class="story__items">
-              <div data-wow-iteration="1" data-wow-duration="2s" class="story__item wow pulse">
+              <div class="story__item wow pulse" data-wow-iteration="1" data-wow-duration="2s">
                 <div class="story__item-pr"><span class="i-whoop"></span></div>
-                <div class="story__item-desc">Почему железобетонные сваи с прошлого века используются при строительстве подавляющего большинства многоэтажных домов? Потому что это самый надёжный вариант!</div>
+                <div class="story__item-desc">До середины XIX века сваи изготавливались исключительно из дерева. На них были построены многие мировые памятники архитектуры. </div>
               </div>
-              <div data-wow-iteration="1" data-wow-delay="2s" data-wow-duration="2s" class="story__item wow pulse">
+              <div class="story__item wow pulse" data-wow-iteration="1" data-wow-delay="2s" data-wow-duration="2s">
                 <div class="story__item-pr"><span class="i-whoop"></span></div>
-                <div class="story__item-desc">Почему до недавнего времени в частном и малоэтажном строительстве использовались только винтовые и буронабивные сваи? Потому что не было подходящей технологии установки ЖБ свай!</div>
+                <div class="story__item-desc">В 1828г. русский военный специалист Маслов сконструировал первый механический копер для погружения свай. По существу, с этого момента началась история широкого развития свайных фундаментов. </div>
               </div>
-              <div data-wow-iteration="1" data-wow-delay="1s" data-wow-duration="2s" class="story__item wow pulse">
+              <div class="story__item wow pulse" data-wow-iteration="1" data-wow-delay="1s" data-wow-duration="2s">
                 <div class="story__item-pr"><span class="i-whoop"></span></div>
-                <div class="story__item-desc">С помощью нашей мобильной сваебойной установки, Вы получите железобетонный фундамент уже через 1-2 дня!</div>
+                <div class="story__item-desc">В 2014г. появилась первая в мире модель компактной сваебойки на гусеничном ходу, сохраняющая целостность участка. </div>
               </div>
             </div>
           </div>
@@ -147,78 +128,78 @@
       <div class="container">
         <div class="row">
           <div class="col-xs-14">
-            <h2 data-wow-duration="2s" class="edge__title text-uppercase header-decoration wow bounce">Преимущества <br>фундамента на ЖБ сваях</h2>
+            <h2 class="edge__title text-uppercase header-decoration wow bounce" data-wow-duration="2s">Почему выбирают фундамент на забивных жб сваях</h2>
           </div>
         </div>
         <div class="row">
           <div class="col-xs-14 col-sm-7">
-            <div data-wow-delay="0s" data-wow-duration="2s" class="edge__item wow bounceInLeft">
+            <div class="edge__item wow bounceInLeft" data-wow-delay="0s" data-wow-duration="2s">
               <header class="edge__item-header">
                 <div class="edge__item-pr">
                   <div class="i-edge-1"></div>
                 </div>
-                <div class="edge__item-title">Проверенное <br>качество</div>
+                <div class="edge__item-title">Уверенность <br>в качестве </div>
               </header>
-              <div class="edge__item-desc">Сваи изготавливаются по ГОСТу на заводе, поставляющем ЖБ сваи для застройщиков.</div>
+              <div class="edge__item-desc">Сваи изготавливаются по ГОСТу 19804-2012, на заводе, имеющем сертифицированную лабораторию и ОТК </div>
             </div>
           </div>
           <div class="col-xs-14 col-sm-7">
-            <div data-wow-delay="0.1s" data-wow-duration="2s" class="edge__item edge__item--second wow bounceInLeft">
+            <div class="edge__item edge__item--second wow bounceInLeft" data-wow-delay="0.1s" data-wow-duration="2s">
               <header class="edge__item-header">
                 <div class="edge__item-pr">
                   <div class="i-edge-2"></div>
                 </div>
-                <div class="edge__item-title">Оперативность</div>
+                <div class="edge__item-title">Высокая скорость <br>строительства </div>
               </header>
-              <div class="edge__item-desc">На возведение фундамента требуется всего 1-2 дня, а продолжать строительные работы можно сразу же.</div>
+              <div class="edge__item-desc">Сокращение сроков строительства фундамента на 85%, а продолжать строительные работы можно сразу же. </div>
             </div>
           </div>
         </div>
         <div class="row">
           <div class="col-xs-14 col-sm-7">
-            <div data-wow-delay="0s" data-wow-duration="2s" class="edge__item wow bounceInLeft">
+            <div class="edge__item wow bounceInLeft" data-wow-delay="0s" data-wow-duration="2s">
               <header class="edge__item-header">
                 <div class="edge__item-pr">
                   <div class="i-edge-3"></div>
                 </div>
-                <div class="edge__item-title">Круглогодичность</div>
+                <div class="edge__item-title">Строим <br>круглый год</div>
               </header>
-              <div class="edge__item-desc">Мы возводим фундамент на сваях даже зимой, при этом забиваем их ниже уровня промерзания</div>
+              <div class="edge__item-desc">Мы возводим фундаменты даже зимой, при этом не увеличивая стоимости работ  </div>
             </div>
           </div>
           <div class="col-xs-14 col-sm-7">
-            <div data-wow-delay="0.1s" data-wow-duration="2s" class="edge__item edge__item--second wow bounceInLeft">
+            <div class="edge__item edge__item--second wow bounceInLeft" data-wow-delay="0.1s" data-wow-duration="2s">
               <header class="edge__item-header">
                 <div class="edge__item-pr">
                   <div class="i-edge-4"></div>
                 </div>
-                <div class="edge__item-title">Устойчивость к <br>условиям</div>
+                <div class="edge__item-title">Отсутствие <br>человеческого фактора </div>
               </header>
-              <div class="edge__item-desc">Сваям не страшны камни в грунте, движение пород, грунтовые воды, коррозия и т.д.</div>
+              <div class="edge__item-desc">При производстве работ , человеческий фактор сведен к минимуму.</div>
             </div>
           </div>
         </div>
         <div class="row">
           <div class="col-xs-14 col-sm-7">
-            <div data-wow-delay="0s" data-wow-duration="2s" class="edge__item wow bounceInLeft">
+            <div class="edge__item wow bounceInLeft" data-wow-delay="0s" data-wow-duration="2s">
               <header class="edge__item-header">
                 <div class="edge__item-pr">
                   <div class="i-edge-5"></div>
                 </div>
-                <div class="edge__item-title">Универсальность</div>
+                <div class="edge__item-title">Широкая <br>сфера применения </div>
               </header>
-              <div class="edge__item-desc">Железобетонные сваи подойдут даже для сложных участков, с перепадами высот и слабым грунтом.</div>
+              <div class="edge__item-desc">Особенно ощутим эффект при строительстве на участках со сложным ландшафтом и слабых грунтах.</div>
             </div>
           </div>
           <div class="col-xs-14 col-sm-7">
-            <div data-wow-delay="0.1s" data-wow-duration="2s" class="edge__item edge__item--second wow bounceInLeft">
+            <div class="edge__item edge__item--second wow bounceInLeft" data-wow-delay="0.1s" data-wow-duration="2s">
               <header class="edge__item-header">
                 <div class="edge__item-pr">
                   <div class="i-edge-6"></div>
                 </div>
                 <div class="edge__item-title">Максимальная <br>надёжность</div>
               </header>
-              <div class="edge__item-desc">Каждая свая выдерживает нагрузку от 10 до 30тонн, в зависимости от свойств грунта.</div>
+              <div class="edge__item-desc">Расчеты производятся на основании проекта дома и геологических изысканий. При наличии всей проектной документации, увеличение гарантии в 2 раза! </div>
             </div>
           </div>
         </div>
@@ -227,9 +208,7 @@
     <div class="think">
       <div class="container">
         <div class="row">
-          <div class="col-xs-14">
-            <p data-wow-duration="2s" class="think__slogan wow bounceInLeft">Ну как? Вы ещё думаете, или уже перейдём <br>к обсуждению фундамента?</p><a href="#call" data-wow-iteration="3" data-wow-duration="2s" class="btn btn-white btn-arrow think__btn fancy wow pulse">Обсудить детали</a>
-          </div>
+          <div class="col-xs-14"><a class="btn btn-white btn-arrow think__btn fancy wow pulse" href="#call" data-wow-iteration="3" data-wow-duration="2s">Обсудить детали</a></div>
         </div>
       </div>
     </div>
@@ -237,8 +216,8 @@
       <div class="container">
         <div class="row">
           <div class="col-xs-14">
-            <h2 data-wow-duration="2s" class="price__title header-decoration text-uppercase wow bounce">Стоимость</h2>
-            <div data-wow-duration="2s" class="price__place wow bounceInLeft">
+            <h2 class="price__title header-decoration text-uppercase wow bounce" data-wow-duration="2s">Стоимость</h2>
+            <div class="price__place wow bounceInLeft" data-wow-duration="2s">
               <p>Железобетонные сваи не самые дешёвые. Но самые экономичные.</p>
               <p>
                 Судите сами: в таблице приведены цены на ЖБ сваи с учётом доставки и проведения работ.
@@ -247,510 +226,61 @@
                 под фундамент, периодического ухода и укрепления. Сравнивать стоимость единицы 
                 или фундамента в целом – решать Вам.
               </p>
+              <p><b>В таблице приведены цены на ЖБ сваи с учетом доставки и проведения работ</b></p>
             </div>
-            <table class="price__table hidden">
-              <tr>
-                <td colspan="2" class="delimiter">Забивные железобетонные сваи 150 х 150 х 3000</td>
-              </tr>
-              <tbody>
-                <tr>
-                  <td>ЖБ сваи <br>с установкой</td>
-                  <td><b class="text-uppercase">Цена в городе</b></td>
-                </tr>
-                <tr>
-                  <td>При заказе <br>от 1-20 свай</td>
-                  <td>5 500 <span class="rubl">q</span> за сваю</td>
-                </tr>
-                <tr>
-                  <td>При заказе <br>от 21-50 свай</td>
-                  <td><span class="x16">5 000 <span class="rubl">q</span></span> за сваю</td>
-                </tr>
-                <tr>
-                  <td>При заказе <br>от 51-100 свай</td>
-                  <td><b class="x18">4 500 <span class="rubl">q</span></b> за сваю</td>
-                </tr>
-                <tr>
-                  <td>При заказе <br>От 101 сваи <br>и выше</td>
-                  <td><b class="x20">4 000 <span class="rubl">u </span></b> за сваю</td>
-                </tr>
-              </tbody>
-              <tbody class="addition">
-                <tr>
-                  <td>ЖБ сваи <br>с установкой</td>
-                  <td><b class="text-uppercase">Цена c доставкой в район до 50 км</b></td>
-                </tr>
-                <tr>
-                  <td>При заказе <br>от 1-20 свай</td>
-                  <td>5 800 <span class="rubl">q</span> за сваю</td>
-                </tr>
-                <tr>
-                  <td>При заказе <br>от 21-50 свай</td>
-                  <td><span class="x16">5 300 <span class="rubl">q</span></span> за сваю</td>
-                </tr>
-                <tr>
-                  <td>При заказе <br>от 51-100 свай</td>
-                  <td><b class="x18">4 800 <span class="rubl">q</span></b> за сваю</td>
-                </tr>
-                <tr>
-                  <td>При заказе <br>От 101 сваи <br>и выше</td>
-                  <td><b class="x20">4 300 <span class="rubl">u </span></b> за сваю</td>
-                </tr>
-              </tbody>
-              <tbody class="addition">
-                <tr>
-                  <td>ЖБ сваи <br>с установкой</td>
-                  <td><b class="text-uppercase">Цена с доставкой в район до 50-100 км</b></td>
-                </tr>
-                <tr>
-                  <td>При заказе <br>от 1-20 свай</td>
-                  <td>6 000 <span class="rubl">q</span> за сваю</td>
-                </tr>
-                <tr>
-                  <td>При заказе <br>от 21-50 свай</td>
-                  <td><span class="x16">5 500 <span class="rubl">q</span></span> за сваю</td>
-                </tr>
-                <tr>
-                  <td>При заказе <br>от 51-100 свай</td>
-                  <td><b class="x18">5 000 <span class="rubl">q</span></b> за сваю</td>
-                </tr>
-                <tr>
-                  <td>При заказе <br>От 101 сваи <br>и выше</td>
-                  <td><b class="x20">4 500 <span class="rubl">u </span></b> за сваю</td>
-                </tr>
-              </tbody>
-              <tbody class="addition">
-                <tr>
-                  <td>ЖБ сваи <br>с установкой</td>
-                  <td><b class="text-uppercase">Цена с доставкой в район до 100-200 км</b></td>
-                </tr>
-                <tr>
-                  <td>При заказе <br>от 1-20 свай</td>
-                  <td>6 300 <span class="rubl">q</span> за сваю</td>
-                </tr>
-                <tr>
-                  <td>При заказе <br>от 21-50 свай</td>
-                  <td><span class="x16">5 800 <span class="rubl">q</span></span> за сваю</td>
-                </tr>
-                <tr>
-                  <td>При заказе <br>от 51-100 свай</td>
-                  <td><b class="x18">5 300 <span class="rubl">q</span></b> за сваю</td>
-                </tr>
-                <tr>
-                  <td>При заказе <br>От 101 сваи <br>и выше</td>
-                  <td><b class="x20">4 800 <span class="rubl">u </span></b> за сваю</td>
-                </tr>
-              </tbody>
-              <tr>
-                <td colspan="2" class="delimiter">ЖБ сваи 150 х 150 х 4000</td>
-              </tr>
-              <tbody>
-                <tr>
-                  <td>ЖБ сваи <br>с установкой</td>
-                  <td><b class="text-uppercase">Цена в городе</b></td>
-                </tr>
-                <tr>
-                  <td>При заказе <br>от 1-20 свай</td>
-                  <td>6 000 <span class="rubl">q</span> за сваю</td>
-                </tr>
-                <tr>
-                  <td>При заказе <br>от 21-50 свай</td>
-                  <td><span class="x16">5 500 <span class="rubl">q</span></span> за сваю</td>
-                </tr>
-                <tr>
-                  <td>При заказе <br>от 51-100 свай</td>
-                  <td><b class="x18">5 000 <span class="rubl">q</span></b> за сваю</td>
-                </tr>
-                <tr>
-                  <td>При заказе <br>От 101 сваи <br>и выше</td>
-                  <td><b class="x20">4 500 <span class="rubl">u </span></b> за сваю</td>
-                </tr>
-              </tbody>
-              <tbody class="addition">
-                <tr>
-                  <td>ЖБ сваи <br>с установкой</td>
-                  <td><b class="text-uppercase">Цена c доставкой в район до 50 км</b></td>
-                </tr>
-                <tr>
-                  <td>При заказе <br>от 1-20 свай</td>
-                  <td>6 300 <span class="rubl">q</span> за сваю</td>
-                </tr>
-                <tr>
-                  <td>При заказе <br>от 21-50 свай</td>
-                  <td><span class="x16">5 800 <span class="rubl">q</span></span> за сваю</td>
-                </tr>
-                <tr>
-                  <td>При заказе <br>от 51-100 свай</td>
-                  <td><b class="x18">5 300 <span class="rubl">q</span></b> за сваю</td>
-                </tr>
-                <tr>
-                  <td>При заказе <br>От 101 сваи <br>и выше</td>
-                  <td><b class="x20">4 800 <span class="rubl">u </span></b> за сваю</td>
-                </tr>
-              </tbody>
-              <tbody class="addition">
-                <tr>
-                  <td>ЖБ сваи <br>с установкой</td>
-                  <td><b class="text-uppercase">Цена с доставкой в район до 50-100 км</b></td>
-                </tr>
-                <tr>
-                  <td>При заказе <br>от 1-20 свай</td>
-                  <td>6 500 <span class="rubl">q</span> за сваю</td>
-                </tr>
-                <tr>
-                  <td>При заказе <br>от 21-50 свай</td>
-                  <td><span class="x16">6 000 <span class="rubl">q</span></span> за сваю</td>
-                </tr>
-                <tr>
-                  <td>При заказе <br>от 51-100 свай</td>
-                  <td><b class="x18">5 500 <span class="rubl">q</span></b> за сваю</td>
-                </tr>
-                <tr>
-                  <td>При заказе <br>От 101 сваи <br>и выше</td>
-                  <td><b class="x20">5 000 <span class="rubl">u </span></b> за сваю</td>
-                </tr>
-              </tbody>
-              <tbody class="addition">
-                <tr>
-                  <td>ЖБ сваи <br>с установкой</td>
-                  <td><b class="text-uppercase">Цена с доставкой в район до 100-200 км</b></td>
-                </tr>
-                <tr>
-                  <td>При заказе <br>от 1-20 свай</td>
-                  <td>6 800 <span class="rubl">q</span> за сваю</td>
-                </tr>
-                <tr>
-                  <td>При заказе <br>от 21-50 свай</td>
-                  <td><span class="x16">6 300 <span class="rubl">q</span></span> за сваю</td>
-                </tr>
-                <tr>
-                  <td>При заказе <br>от 51-100 свай</td>
-                  <td><b class="x18">5 800 <span class="rubl">q</span></b> за сваю</td>
-                </tr>
-                <tr>
-                  <td>При заказе <br>От 101 сваи <br>и выше</td>
-                  <td><b class="x20">5 300 <span class="rubl">u </span></b> за сваю</td>
-                </tr>
-              </tbody>
-              <tr>
-                <td colspan="2" class="delimiter">Фундамент на железобетонных сваях 200 х 200 х 3000</td>
-              </tr>
-              <tbody>
-                <tr>
-                  <td>ЖБ сваи <br>с установкой</td>
-                  <td><b class="text-uppercase">Цена в городе</b></td>
-                </tr>
-                <tr>
-                  <td>При заказе <br>от 1-20 свай</td>
-                  <td>6 500 <span class="rubl">q</span> за сваю</td>
-                </tr>
-                <tr>
-                  <td>При заказе <br>от 21-50 свай</td>
-                  <td><span class="x16">6 000 <span class="rubl">q</span></span> за сваю</td>
-                </tr>
-                <tr>
-                  <td>При заказе <br>от 51-100 свай</td>
-                  <td><b class="x18">5 500 <span class="rubl">q</span></b> за сваю</td>
-                </tr>
-                <tr>
-                  <td>При заказе <br>От 101 сваи <br>и выше</td>
-                  <td><b class="x20">5 000 <span class="rubl">u </span></b> за сваю</td>
-                </tr>
-              </tbody>
-              <tbody class="addition">
-                <tr>
-                  <td>ЖБ сваи <br>с установкой</td>
-                  <td><b class="text-uppercase">Цена c доставкой в район до 50 км</b></td>
-                </tr>
-                <tr>
-                  <td>При заказе <br>от 1-20 свай</td>
-                  <td>6 800 <span class="rubl">q</span> за сваю</td>
-                </tr>
-                <tr>
-                  <td>При заказе <br>от 21-50 свай</td>
-                  <td><span class="x16">6 300 <span class="rubl">q</span></span> за сваю</td>
-                </tr>
-                <tr>
-                  <td>При заказе <br>от 51-100 свай</td>
-                  <td><b class="x18">5 800 <span class="rubl">q</span></b> за сваю</td>
-                </tr>
-                <tr>
-                  <td>При заказе <br>От 101 сваи <br>и выше</td>
-                  <td><b class="x20">5 300 <span class="rubl">u </span></b> за сваю</td>
-                </tr>
-              </tbody>
-              <tbody class="addition">
-                <tr>
-                  <td>ЖБ сваи <br>с установкой</td>
-                  <td><b class="text-uppercase">Цена с доставкой в район до 50-100 км</b></td>
-                </tr>
-                <tr>
-                  <td>При заказе <br>от 1-20 свай</td>
-                  <td>7 000 <span class="rubl">q</span> за сваю</td>
-                </tr>
-                <tr>
-                  <td>При заказе <br>от 21-50 свай</td>
-                  <td><span class="x16">6 500 <span class="rubl">q</span></span> за сваю</td>
-                </tr>
-                <tr>
-                  <td>При заказе <br>от 51-100 свай</td>
-                  <td><b class="x18">6 000 <span class="rubl">q</span></b> за сваю</td>
-                </tr>
-                <tr>
-                  <td>При заказе <br>От 101 сваи <br>и выше</td>
-                  <td><b class="x20">5 500 <span class="rubl">u </span></b> за сваю</td>
-                </tr>
-              </tbody>
-              <tbody class="addition">
-                <tr>
-                  <td>ЖБ сваи <br>с установкой</td>
-                  <td><b class="text-uppercase">Цена с доставкой в район до 100-200 км</b></td>
-                </tr>
-                <tr>
-                  <td>При заказе <br>от 1-20 свай</td>
-                  <td>7 300 <span class="rubl">q</span> за сваю</td>
-                </tr>
-                <tr>
-                  <td>При заказе <br>от 21-50 свай</td>
-                  <td><span class="x16">6 800 <span class="rubl">q</span></span> за сваю</td>
-                </tr>
-                <tr>
-                  <td>При заказе <br>от 51-100 свай</td>
-                  <td><b class="x18">6 300 <span class="rubl">q</span></b> за сваю</td>
-                </tr>
-                <tr>
-                  <td>При заказе <br>От 101 сваи <br>и выше</td>
-                  <td><b class="x20">5 800 <span class="rubl">u </span></b> за сваю</td>
-                </tr>
-              </tbody>
-              <tr>
-                <td colspan="2" class="delimiter">ЖБ сваи 150 х 150 х 4000</td>
-              </tr>
-              <tbody>
-                <tr>
-                  <td>ЖБ сваи <br>с установкой</td>
-                  <td><b class="text-uppercase">Цена в городе</b></td>
-                </tr>
-                <tr>
-                  <td>При заказе <br>от 1-20 свай</td>
-                  <td>7 500 <span class="rubl">q</span> за сваю</td>
-                </tr>
-                <tr>
-                  <td>При заказе <br>от 21-50 свай</td>
-                  <td><span class="x16">7 000 <span class="rubl">q</span></span> за сваю</td>
-                </tr>
-                <tr>
-                  <td>При заказе <br>от 51-100 свай</td>
-                  <td><b class="x18">6 500 <span class="rubl">q</span></b> за сваю</td>
-                </tr>
-                <tr>
-                  <td>При заказе <br>От 101 сваи <br>и выше</td>
-                  <td><b class="x20">6 000 <span class="rubl">u </span></b> за сваю</td>
-                </tr>
-              </tbody>
-              <tbody class="addition">
-                <tr>
-                  <td>ЖБ сваи <br>с установкой</td>
-                  <td><b class="text-uppercase">Цена c доставкой в район до 50 км</b></td>
-                </tr>
-                <tr>
-                  <td>При заказе <br>от 1-20 свай</td>
-                  <td>7 800 <span class="rubl">q</span> за сваю</td>
-                </tr>
-                <tr>
-                  <td>При заказе <br>от 21-50 свай</td>
-                  <td><span class="x16">7 300 <span class="rubl">q</span></span> за сваю</td>
-                </tr>
-                <tr>
-                  <td>При заказе <br>от 51-100 свай</td>
-                  <td><b class="x18">6 800 <span class="rubl">q</span></b> за сваю</td>
-                </tr>
-                <tr>
-                  <td>При заказе <br>От 101 сваи <br>и выше</td>
-                  <td><b class="x20">6 300 <span class="rubl">u </span></b> за сваю</td>
-                </tr>
-              </tbody>
-              <tbody>
-                <tr>
-                  <td>ЖБ сваи <br>с установкой</td>
-                  <td><b class="text-uppercase">Цена с доставкой в район до 50-100 км</b></td>
-                </tr>
-                <tr>
-                  <td>При заказе <br>от 1-20 свай</td>
-                  <td>8 000 <span class="rubl">q</span> за сваю</td>
-                </tr>
-                <tr>
-                  <td>При заказе <br>от 21-50 свай</td>
-                  <td><span class="x16">7 500 <span class="rubl">q</span></span> за сваю</td>
-                </tr>
-                <tr>
-                  <td>При заказе <br>от 51-100 свай</td>
-                  <td><b class="x18">7 000 <span class="rubl">q</span></b> за сваю</td>
-                </tr>
-                <tr>
-                  <td>При заказе <br>От 101 сваи <br>и выше</td>
-                  <td><b class="x20">6 500 <span class="rubl">u </span></b> за сваю</td>
-                </tr>
-              </tbody>
-              <tbody>
-                <tr>
-                  <td>ЖБ сваи <br>с установкой</td>
-                  <td><b class="text-uppercase">Цена с доставкой в район до 100-200 км</b></td>
-                </tr>
-                <tr>
-                  <td>При заказе <br>от 1-20 свай</td>
-                  <td>8 300 <span class="rubl">q</span> за сваю</td>
-                </tr>
-                <tr>
-                  <td>При заказе <br>от 21-50 свай</td>
-                  <td><span class="x16">7 800 <span class="rubl">q</span></span> за сваю</td>
-                </tr>
-                <tr>
-                  <td>При заказе <br>от 51-100 свай</td>
-                  <td><b class="x18">7 300 <span class="rubl">q</span></b> за сваю</td>
-                </tr>
-                <tr>
-                  <td>При заказе <br>От 101 сваи <br>и выше</td>
-                  <td><b class="x20">6 800 <span class="rubl">u </span></b> за сваю</td>
-                </tr>
-              </tbody>
-            </table>
-            <p class="price__tooltip visible-xs">Подсказка: Таблицу можно скроллить влево и право<br>Кликните по интересующей вас строке что бы узнать цены за пределами города</p>
+            <p class="price__tooltip visible-xs"><b>Подсказка: Таблицу можно скроллить влево и право						</b></p>
             <div class="price__table-wrap">
               <table class="price__table">
-                <tr data-wow-duration="2s" class="wow bounceInLeft">
-                  <th>ЖБ сваи <br>с установкой</th>
-                  <th>При заказе <br>от 1-20 свай</th>
-                  <th>При заказе <br>от 21-50 свай</th>
-                  <th>При заказе <br>от 51-100 свай</th>
+                <tr class="wow bounceInLeft" data-wow-duration="2s">
+                  <th>Кол-во свай</th>
                   <th>От 101 сваи <br>и выше</th>
+                  <th>от 51-100 свай</th>
+                  <th>от 21-50 свай</th>
+                  <th>от 1-20 свай</th>
                 </tr>
-                <tr data-wow-duration="2s" class="wow bounceInLeft">
-                  <td colspan="5" class="delimiter">Забивные железобетонные сваи 150 х 150 х 3000</td>
+                <tr class="wow bounceInLeft" data-wow-duration="2s">
+                  <td class="delimiter" colspan="5">Стоимость одной забитой сваи размером 150 х 150 х 3000</td>
                 </tr>
-                <tr data-wow-duration="2s" class="wow bounceInLeft">
-                  <td><b class="text-uppercase">Цена в городе</b></td>
-                  <td>5 500 <span class="rubl">q</span> за сваю</td>
-                  <td><span class="x16">5 000 <span class="rubl">q</span></span> за сваю</td>
-                  <td><b class="x18">4 500 <span class="rubl">q</span></b> за сваю</td>
-                  <td><b class="x20">4 000 <span class="rubl">u </span></b> за сваю</td>
+                <tr class="wow bounceInLeft" data-wow-duration="2s">
+                  <td><b class="text-uppercase">Цена в черте города</b></td>
+                  <td>4 000 <span class="rubl">q</span></td>
+                  <td><span class="x16">4 500 <span class="rubl">q</span></span></td>
+                  <td><b class="x18">5 000 <span class="rubl">q</span></b></td>
+                  <td><b class="x20">5 500 <span class="rubl">u </span></b></td>
                 </tr>
-                <tr class="addition">
-                  <td><b class="text-uppercase">Цена с доставкой в район до 50 км</b></td>
-                  <td>5 800 <span class="rubl">q</span> за сваю</td>
-                  <td><span class="x16">5 300 <span class="rubl">q</span></span> за сваю</td>
-                  <td><b class="x18">4 800 <span class="rubl">q</span></b> за сваю</td>
-                  <td><b class="x20">4 300 <span class="rubl">u </span></b> за сваю</td>
+                <tr class="wow bounceInLeft" data-wow-duration="2s">
+                  <td class="delimiter" colspan="5">Стоимость одной забитой сваи размером 150 х 150 х 4000</td>
                 </tr>
-                <tr class="addition">
-                  <td><b class="text-uppercase">Цена с доставкой в район до 50-100 км</b></td>
-                  <td>6 000 <span class="rubl">q</span> за сваю</td>
-                  <td><span class="x16">5 500 <span class="rubl">q</span></span> за сваю</td>
-                  <td><b class="x18">5 000 <span class="rubl">q</span></b> за сваю</td>
-                  <td><b class="x20">4 500 <span class="rubl">u </span></b> за сваю</td>
+                <tr class="wow bounceInLeft" data-wow-duration="2s">
+                  <td><b class="text-uppercase">Цена в черте города</b></td>
+                  <td>4 500 <span class="rubl">q</span></td>
+                  <td><span class="x16">5 000 <span class="rubl">q</span></span></td>
+                  <td><b class="x18">5 500 <span class="rubl">q</span></b></td>
+                  <td><b class="x20">6 000<span class="rubl">u </span></b></td>
                 </tr>
-                <tr class="addition">
-                  <td><b class="text-uppercase">Цена с доставкой в район до 100-200 км</b></td>
-                  <td>6 300 <span class="rubl">q</span> за сваю</td>
-                  <td><span class="x16">5 800 <span class="rubl">q</span></span> за сваю</td>
-                  <td><b class="x18">5 300 <span class="rubl">q</span></b> за сваю</td>
-                  <td><b class="x20">4 800 <span class="rubl">u </span></b> за сваю</td>
+                <tr class="wow bounceInLeft" data-wow-duration="2s">
+                  <td class="delimiter" colspan="5">Стоимость одной забитой сваи размером 200 х 200 х 3000</td>
                 </tr>
-                <tr data-wow-duration="2s" class="wow bounceInLeft">
-                  <td colspan="5" class="delimiter">ЖБ сваи 150 х 150 х 4000</td>
+                <tr class="wow bounceInLeft" data-wow-duration="2s">
+                  <td><b class="text-uppercase">Цена в черте города</b></td>
+                  <td>5 000 <span class="rubl">q</span></td>
+                  <td><span class="x16">5 500 <span class="rubl">q</span></span></td>
+                  <td><b class="x18">6 000 <span class="rubl">q</span></b></td>
+                  <td><b class="x20">6 500<span class="rubl">u </span></b></td>
                 </tr>
-                <tr data-wow-duration="2s" class="wow bounceInLeft">
-                  <td><b class="text-uppercase">Цена в городе</b></td>
-                  <td>6 000<span class="rubl">q</span> за сваю</td>
-                  <td><span class="x16">5 500 <span class="rubl">q</span></span> за сваю</td>
-                  <td><b class="x18">5 000 <span class="rubl">q</span></b> за сваю</td>
-                  <td><b class="x20">4 500 <span class="rubl">u </span></b> за сваю</td>
+                <tr class="wow bounceInLeft" data-wow-duration="2s">
+                  <td class="delimiter" colspan="5">Стоимость одной забитой сваи размером 150 х 150 х 4000</td>
                 </tr>
-                <tr class="addition">
-                  <td><b class="text-uppercase">Цена с доставкой в район до 50 км</b></td>
-                  <td>6 300 <span class="rubl">q</span> за сваю</td>
-                  <td><span class="x16">5 800 <span class="rubl">q</span></span> за сваю</td>
-                  <td><b class="x18">5 300 <span class="rubl">q</span></b> за сваю</td>
-                  <td><b class="x20">4 800 <span class="rubl">u </span></b> за сваю</td>
-                </tr>
-                <tr class="addition">
-                  <td><b class="text-uppercase">Цена с доставкой в район до 50-100 км</b></td>
-                  <td>6 500 <span class="rubl">q</span> за сваю</td>
-                  <td><span class="x16">6 000 <span class="rubl">q</span></span> за сваю</td>
-                  <td><b class="x18">5 500 <span class="rubl">q</span></b> за сваю</td>
-                  <td><b class="x20">5 000 <span class="rubl">u </span></b> за сваю</td>
-                </tr>
-                <tr class="addition">
-                  <td><b class="text-uppercase">Цена с доставкой в район до 100-200 км</b></td>
-                  <td>6 800 <span class="rubl">q</span> за сваю</td>
-                  <td><span class="x16">6 300 <span class="rubl">q</span></span> за сваю</td>
-                  <td><b class="x18">5 800 <span class="rubl">q</span></b> за сваю</td>
-                  <td><b class="x20">5 300 <span class="rubl">u </span></b> за сваю</td>
-                </tr>
-                <tr data-wow-duration="2s" class="wow bounceInLeft">
-                  <td colspan="5" class="delimiter">Фундамент на железобетонных сваях 200 х 200 х 3000</td>
-                </tr>
-                <tr data-wow-duration="2s" class="wow bounceInLeft">
-                  <td><b class="text-uppercase">Цена в городе</b></td>
-                  <td>6 500<span class="rubl">q</span> за сваю</td>
-                  <td><span class="x16">6 000 <span class="rubl">q</span></span> за сваю</td>
-                  <td><b class="x18">5 500 <span class="rubl">q</span></b> за сваю</td>
-                  <td><b class="x20">5 000 <span class="rubl">u </span></b> за сваю</td>
-                </tr>
-                <tr class="addition">
-                  <td><b class="text-uppercase">Цена с доставкой в район до 50 км</b></td>
-                  <td>6 800 <span class="rubl">q</span> за сваю</td>
-                  <td><span class="x16">6 300 <span class="rubl">q</span></span> за сваю</td>
-                  <td><b class="x18">5 800 <span class="rubl">q</span></b> за сваю</td>
-                  <td><b class="x20">5 300 <span class="rubl">u </span></b> за сваю</td>
-                </tr>
-                <tr class="addition">
-                  <td><b class="text-uppercase">Цена с доставкой в район до 50-100 км</b></td>
-                  <td>7 000 <span class="rubl">q</span> за сваю</td>
-                  <td><span class="x16">6 500 <span class="rubl">q</span></span> за сваю</td>
-                  <td><b class="x18">6 000 <span class="rubl">q</span></b> за сваю</td>
-                  <td><b class="x20">5 500 <span class="rubl">u </span></b> за сваю</td>
-                </tr>
-                <tr class="addition">
-                  <td><b class="text-uppercase">Цена с доставкой в район до 100-200 км</b></td>
-                  <td>7 300 <span class="rubl">q</span> за сваю</td>
-                  <td><span class="x16">6 800 <span class="rubl">q</span></span> за сваю</td>
-                  <td><b class="x18">6 300 <span class="rubl">q</span></b> за сваю</td>
-                  <td><b class="x20">5 800 <span class="rubl">u </span></b> за сваю</td>
-                </tr>
-                <tr data-wow-duration="2s" class="wow bounceInLeft">
-                  <td colspan="5" class="delimiter">ЖБ сваи 150 х 150 х 4000</td>
-                </tr>
-                <tr data-wow-duration="2s" class="wow bounceInLeft">
-                  <td><b class="text-uppercase">Цена в городе</b></td>
-                  <td>7 500<span class="rubl">q</span> за сваю</td>
-                  <td><span class="x16">7 000 <span class="rubl">q</span></span> за сваю</td>
-                  <td><b class="x18">6 500 <span class="rubl">q</span></b> за сваю</td>
-                  <td><b class="x20">6 000 <span class="rubl">u </span></b> за сваю</td>
-                </tr>
-                <tr class="addition">
-                  <td><b class="text-uppercase">Цена с доставкой в район до 50 км</b></td>
-                  <td>7 800 <span class="rubl">q</span> за сваю</td>
-                  <td><span class="x16">7 300 <span class="rubl">q</span></span> за сваю</td>
-                  <td><b class="x18">6 800 <span class="rubl">q</span></b> за сваю</td>
-                  <td><b class="x20">6 300 <span class="rubl">u </span></b> за сваю</td>
-                </tr>
-                <tr class="addition">
-                  <td><b class="text-uppercase">Цена с доставкой в район до 50-100 км</b></td>
-                  <td>8 000 <span class="rubl">q</span> за сваю</td>
-                  <td><span class="x16">7 500 <span class="rubl">q</span></span> за сваю</td>
-                  <td><b class="x18">7 000 <span class="rubl">q</span></b> за сваю</td>
-                  <td><b class="x20">6 500 <span class="rubl">u </span></b> за сваю</td>
-                </tr>
-                <tr class="addition">
-                  <td><b class="text-uppercase">Цена с доставкой в район до 100-200 км</b></td>
-                  <td>8 300 <span class="rubl">q</span> за сваю</td>
-                  <td><span class="x16">7 800 <span class="rubl">q</span></span> за сваю</td>
-                  <td><b class="x18">7 300 <span class="rubl">q</span></b> за сваю</td>
-                  <td><b class="x20">6 800 <span class="rubl">u </span></b> за сваю</td>
+                <tr class="wow bounceInLeft" data-wow-duration="2s">
+                  <td><b class="text-uppercase">Цена в черте города</b></td>
+                  <td>6 000 <span class="rubl">q</span></td>
+                  <td><span class="x16">6 500 <span class="rubl">q</span></span></td>
+                  <td><b class="x18">7 000 <span class="rubl">q</span></b></td>
+                  <td><b class="x20">7 500 <span class="rubl">u </span></b></td>
                 </tr>
               </table>
             </div>
-            <p data-wow-duration="2s" class="price__slogan wow bounceInUp">Чтобы узнать стоимость сваи с установкой за городом, <br>наведите курсор на интересующий размер ЖБ свай.</p><a href="#call" data-wow-iteration="3" data-wow-duration="2s" class="btn btn-green btn-arrow price__btn fancy wow pulse">Заказать</a>
+            <p class="price__slogan wow bounceInUp" data-wow-duration="2s">Чтобы узнать стоимость сваи с установкой за городом, <br>наведите курсор на интересующий размер ЖБ свай.</p><a class="btn btn-green btn-arrow price__btn fancy wow pulse" href="#call" data-wow-iteration="3" data-wow-duration="2s">Заказать</a>
           </div>
         </div>
       </div>
@@ -759,543 +289,543 @@
       <div class="container">
         <div class="row">
           <div class="col-xs-14">
-            <h2 data-wow-duration="2s" class="work__title header-decoration text-uppercase wow bounce">Наши работы</h2>
-            <div class="work__filters"><span data-href="#tab-1" class="work__filter">Фотографии</span><span data-href="#tab-2" class="work__filter active">Видео с объектов</span><span data-href="#tab-1,#tab-2" class="work__filter">Фото и видео</span></div>
+            <h2 class="work__title header-decoration text-uppercase wow bounce" data-wow-duration="2s">Наши работы</h2>
+            <div class="work__filters"><span class="work__filter" data-href="#tab-1">Фотографии</span><span class="work__filter active" data-href="#tab-2">Видео с объектов</span><span class="work__filter" data-href="#tab-1,#tab-2">Фото и видео</span></div>
           </div>
         </div>
       </div>
-      <div id="tab-1" class="clearfix">
+      <div class="clearfix" id="tab-1">
         <div class="work__slider">
           <div id="work__slider-1">
             <div>
-              <div class="work__slide"><img src="images/work/7.jpg" alt="" class="work__slide-img"><a href="images/work/full/7.jpg" data-fancybox-group="gallery" class="work__slide-text fancy">
+              <div class="work__slide"><img class="work__slide-img" src="images/work/7.jpg" alt=""><a class="work__slide-text fancy" href="images/work/full/7.jpg" data-fancybox-group="gallery">
                   <div class="work__slide-desc">
                     <div class="work__slide-date">Август 2016 год</div>
                     <div class="work__slide-comment">дер. Инютино</div>
                   </div></a></div>
             </div>
             <div>
-              <div class="work__slide"><img src="images/work/20.jpg" alt="" class="work__slide-img"><a href="images/work/full/20.jpg" data-fancybox-group="gallery" class="work__slide-text fancy">
+              <div class="work__slide"><img class="work__slide-img" src="images/work/20.jpg" alt=""><a class="work__slide-text fancy" href="images/work/full/20.jpg" data-fancybox-group="gallery">
                   <div class="work__slide-desc">
                     <div class="work__slide-date">Август 2016 год</div>
                     <div class="work__slide-comment">дер. Бурцево</div>
                   </div></a></div>
             </div>
             <div>
-              <div class="work__slide"><img src="images/work/39.jpg" alt="" class="work__slide-img"><a href="images/work/full/39.jpg" data-fancybox-group="gallery" class="work__slide-text fancy">
+              <div class="work__slide"><img class="work__slide-img" src="images/work/39.jpg" alt=""><a class="work__slide-text fancy" href="images/work/full/39.jpg" data-fancybox-group="gallery">
                   <div class="work__slide-desc">
                     <div class="work__slide-date">Август 2016 год</div>
                     <div class="work__slide-comment">дер. Бурцево</div>
                   </div></a></div>
             </div>
             <div>
-              <div class="work__slide"><img src="images/work/13.jpg" alt="" class="work__slide-img"><a href="images/work/full/13.jpg" data-fancybox-group="gallery" class="work__slide-text fancy">
+              <div class="work__slide"><img class="work__slide-img" src="images/work/13.jpg" alt=""><a class="work__slide-text fancy" href="images/work/full/13.jpg" data-fancybox-group="gallery">
                   <div class="work__slide-desc">
                     <div class="work__slide-date">Август 2016 год</div>
                     <div class="work__slide-comment">дер. Михальчиково</div>
                   </div></a></div>
             </div>
             <div>
-              <div class="work__slide"><img src="images/work/43.jpg" alt="" class="work__slide-img"><a href="images/work/full/43.jpg" data-fancybox-group="gallery" class="work__slide-text fancy">
+              <div class="work__slide"><img class="work__slide-img" src="images/work/43.jpg" alt=""><a class="work__slide-text fancy" href="images/work/full/43.jpg" data-fancybox-group="gallery">
                   <div class="work__slide-desc">
                     <div class="work__slide-date">Август 2016 год</div>
                     <div class="work__slide-comment">дер. Новая Березовка</div>
                   </div></a></div>
             </div>
             <div>
-              <div class="work__slide"><img src="images/work/30.jpg" alt="" class="work__slide-img"><a href="images/work/full/30.jpg" data-fancybox-group="gallery" class="work__slide-text fancy">
+              <div class="work__slide"><img class="work__slide-img" src="images/work/30.jpg" alt=""><a class="work__slide-text fancy" href="images/work/full/30.jpg" data-fancybox-group="gallery">
                   <div class="work__slide-desc">
                     <div class="work__slide-date">Август 2016 год</div>
                     <div class="work__slide-comment">дер. Бурцево	</div>
                   </div></a></div>
             </div>
             <div>
-              <div class="work__slide"><img src="images/work/28.jpg" alt="" class="work__slide-img"><a href="images/work/full/28.jpg" data-fancybox-group="gallery" class="work__slide-text fancy">
+              <div class="work__slide"><img class="work__slide-img" src="images/work/28.jpg" alt=""><a class="work__slide-text fancy" href="images/work/full/28.jpg" data-fancybox-group="gallery">
                   <div class="work__slide-desc">
                     <div class="work__slide-date">Август 2016 год</div>
                     <div class="work__slide-comment">дер. Бурцево</div>
                   </div></a></div>
             </div>
             <div>
-              <div class="work__slide"><img src="images/work/22.jpg" alt="" class="work__slide-img"><a href="images/work/full/22.jpg" data-fancybox-group="gallery" class="work__slide-text fancy">
+              <div class="work__slide"><img class="work__slide-img" src="images/work/22.jpg" alt=""><a class="work__slide-text fancy" href="images/work/full/22.jpg" data-fancybox-group="gallery">
                   <div class="work__slide-desc">
                     <div class="work__slide-date">Август 2016 год</div>
                     <div class="work__slide-comment">дер. Бурцево</div>
                   </div></a></div>
             </div>
             <div>
-              <div class="work__slide"><img src="images/work/46.jpg" alt="" class="work__slide-img"><a href="images/work/full/46.jpg" data-fancybox-group="gallery" class="work__slide-text fancy">
+              <div class="work__slide"><img class="work__slide-img" src="images/work/46.jpg" alt=""><a class="work__slide-text fancy" href="images/work/full/46.jpg" data-fancybox-group="gallery">
                   <div class="work__slide-desc">
                     <div class="work__slide-date">Август 2016 год</div>
                     <div class="work__slide-comment">дер. Новая Березовка</div>
                   </div></a></div>
             </div>
             <div>
-              <div class="work__slide"><img src="images/work/52.jpg" alt="" class="work__slide-img"><a href="images/work/full/52.jpg" data-fancybox-group="gallery" class="work__slide-text fancy">
+              <div class="work__slide"><img class="work__slide-img" src="images/work/52.jpg" alt=""><a class="work__slide-text fancy" href="images/work/full/52.jpg" data-fancybox-group="gallery">
                   <div class="work__slide-desc">
                     <div class="work__slide-date">Август 2016 год</div>
                     <div class="work__slide-comment">дер. Новая Березовка</div>
                   </div></a></div>
             </div>
             <div>
-              <div class="work__slide"><img src="images/work/21.jpg" alt="" class="work__slide-img"><a href="images/work/full/21.jpg" data-fancybox-group="gallery" class="work__slide-text fancy">
+              <div class="work__slide"><img class="work__slide-img" src="images/work/21.jpg" alt=""><a class="work__slide-text fancy" href="images/work/full/21.jpg" data-fancybox-group="gallery">
                   <div class="work__slide-desc">
                     <div class="work__slide-date">Август 2016 год</div>
                     <div class="work__slide-comment">дер. Бурцево</div>
                   </div></a></div>
             </div>
             <div>
-              <div class="work__slide"><img src="images/work/41.jpg" alt="" class="work__slide-img"><a href="images/work/full/41.jpg" data-fancybox-group="gallery" class="work__slide-text fancy">
+              <div class="work__slide"><img class="work__slide-img" src="images/work/41.jpg" alt=""><a class="work__slide-text fancy" href="images/work/full/41.jpg" data-fancybox-group="gallery">
                   <div class="work__slide-desc">
                     <div class="work__slide-date">Август 2016 год</div>
                     <div class="work__slide-comment">дер. Новая Березовка</div>
                   </div></a></div>
             </div>
             <div>
-              <div class="work__slide"><img src="images/work/47.jpg" alt="" class="work__slide-img"><a href="images/work/full/47.jpg" data-fancybox-group="gallery" class="work__slide-text fancy">
+              <div class="work__slide"><img class="work__slide-img" src="images/work/47.jpg" alt=""><a class="work__slide-text fancy" href="images/work/full/47.jpg" data-fancybox-group="gallery">
                   <div class="work__slide-desc">
                     <div class="work__slide-date">Август 2016 год</div>
                     <div class="work__slide-comment">дер. Новая Березовка</div>
                   </div></a></div>
             </div>
             <div>
-              <div class="work__slide"><img src="images/work/4.jpg" alt="" class="work__slide-img"><a href="images/work/full/4.jpg" data-fancybox-group="gallery" class="work__slide-text fancy">
+              <div class="work__slide"><img class="work__slide-img" src="images/work/4.jpg" alt=""><a class="work__slide-text fancy" href="images/work/full/4.jpg" data-fancybox-group="gallery">
                   <div class="work__slide-desc">
                     <div class="work__slide-date">Август 2016 год</div>
                     <div class="work__slide-comment">дер. Инютино</div>
                   </div></a></div>
             </div>
             <div>
-              <div class="work__slide"><img src="images/work/36.jpg" alt="" class="work__slide-img"><a href="images/work/full/36.jpg" data-fancybox-group="gallery" class="work__slide-text fancy">
+              <div class="work__slide"><img class="work__slide-img" src="images/work/36.jpg" alt=""><a class="work__slide-text fancy" href="images/work/full/36.jpg" data-fancybox-group="gallery">
                   <div class="work__slide-desc">
                     <div class="work__slide-date">Август 2016 год</div>
                     <div class="work__slide-comment">дер. Бурцево</div>
                   </div></a></div>
             </div>
             <div>
-              <div class="work__slide"><img src="images/work/11.jpg" alt="" class="work__slide-img"><a href="images/work/full/11.jpg" data-fancybox-group="gallery" class="work__slide-text fancy">
+              <div class="work__slide"><img class="work__slide-img" src="images/work/11.jpg" alt=""><a class="work__slide-text fancy" href="images/work/full/11.jpg" data-fancybox-group="gallery">
                   <div class="work__slide-desc">
                     <div class="work__slide-date">Август 2016 год</div>
                     <div class="work__slide-comment">дер. Михальчиково</div>
                   </div></a></div>
             </div>
             <div>
-              <div class="work__slide"><img src="images/work/6.jpg" alt="" class="work__slide-img"><a href="images/work/full/6.jpg" data-fancybox-group="gallery" class="work__slide-text fancy">
+              <div class="work__slide"><img class="work__slide-img" src="images/work/6.jpg" alt=""><a class="work__slide-text fancy" href="images/work/full/6.jpg" data-fancybox-group="gallery">
                   <div class="work__slide-desc">
                     <div class="work__slide-date">Август 2016 год</div>
                     <div class="work__slide-comment">дер. Инютино</div>
                   </div></a></div>
             </div>
             <div>
-              <div class="work__slide"><img src="images/work/25.jpg" alt="" class="work__slide-img"><a href="images/work/full/25.jpg" data-fancybox-group="gallery" class="work__slide-text fancy">
+              <div class="work__slide"><img class="work__slide-img" src="images/work/25.jpg" alt=""><a class="work__slide-text fancy" href="images/work/full/25.jpg" data-fancybox-group="gallery">
                   <div class="work__slide-desc">
                     <div class="work__slide-date">Август 2016 год</div>
                     <div class="work__slide-comment">дер. Бурцево</div>
                   </div></a></div>
             </div>
             <div>
-              <div class="work__slide"><img src="images/work/10.jpg" alt="" class="work__slide-img"><a href="images/work/full/10.jpg" data-fancybox-group="gallery" class="work__slide-text fancy">
+              <div class="work__slide"><img class="work__slide-img" src="images/work/10.jpg" alt=""><a class="work__slide-text fancy" href="images/work/full/10.jpg" data-fancybox-group="gallery">
                   <div class="work__slide-desc">
                     <div class="work__slide-date">Август 2016 год</div>
                     <div class="work__slide-comment">дер. Инюти</div>
                   </div></a></div>
             </div>
             <div>
-              <div class="work__slide"><img src="images/work/50.jpg" alt="" class="work__slide-img"><a href="images/work/full/50.jpg" data-fancybox-group="gallery" class="work__slide-text fancy">
+              <div class="work__slide"><img class="work__slide-img" src="images/work/50.jpg" alt=""><a class="work__slide-text fancy" href="images/work/full/50.jpg" data-fancybox-group="gallery">
                   <div class="work__slide-desc">
                     <div class="work__slide-date">Август 2016 год</div>
                     <div class="work__slide-comment">дер. Новая Березовка</div>
                   </div></a></div>
             </div>
             <div>
-              <div class="work__slide"><img src="images/work/29.jpg" alt="" class="work__slide-img"><a href="images/work/full/29.jpg" data-fancybox-group="gallery" class="work__slide-text fancy">
+              <div class="work__slide"><img class="work__slide-img" src="images/work/29.jpg" alt=""><a class="work__slide-text fancy" href="images/work/full/29.jpg" data-fancybox-group="gallery">
                   <div class="work__slide-desc">
                     <div class="work__slide-date">Август 2016 год</div>
                     <div class="work__slide-comment">дер. Бурцево</div>
                   </div></a></div>
             </div>
             <div>
-              <div class="work__slide"><img src="images/work/42.jpg" alt="" class="work__slide-img"><a href="images/work/full/42.jpg" data-fancybox-group="gallery" class="work__slide-text fancy">
+              <div class="work__slide"><img class="work__slide-img" src="images/work/42.jpg" alt=""><a class="work__slide-text fancy" href="images/work/full/42.jpg" data-fancybox-group="gallery">
                   <div class="work__slide-desc">
                     <div class="work__slide-date">Август 2016 год</div>
                     <div class="work__slide-comment">дер. Новая Березовка</div>
                   </div></a></div>
             </div>
             <div>
-              <div class="work__slide"><img src="images/work/9.jpg" alt="" class="work__slide-img"><a href="images/work/full/9.jpg" data-fancybox-group="gallery" class="work__slide-text fancy">
+              <div class="work__slide"><img class="work__slide-img" src="images/work/9.jpg" alt=""><a class="work__slide-text fancy" href="images/work/full/9.jpg" data-fancybox-group="gallery">
                   <div class="work__slide-desc">
                     <div class="work__slide-date">Август 2016 год</div>
                     <div class="work__slide-comment">дер. Инютино</div>
                   </div></a></div>
             </div>
             <div>
-              <div class="work__slide"><img src="images/work/23.jpg" alt="" class="work__slide-img"><a href="images/work/full/23.jpg" data-fancybox-group="gallery" class="work__slide-text fancy">
+              <div class="work__slide"><img class="work__slide-img" src="images/work/23.jpg" alt=""><a class="work__slide-text fancy" href="images/work/full/23.jpg" data-fancybox-group="gallery">
                   <div class="work__slide-desc">
                     <div class="work__slide-date">Август 2016 год</div>
                     <div class="work__slide-comment">дер. Бурцево</div>
                   </div></a></div>
             </div>
             <div>
-              <div class="work__slide"><img src="images/work/37.jpg" alt="" class="work__slide-img"><a href="images/work/full/37.jpg" data-fancybox-group="gallery" class="work__slide-text fancy">
+              <div class="work__slide"><img class="work__slide-img" src="images/work/37.jpg" alt=""><a class="work__slide-text fancy" href="images/work/full/37.jpg" data-fancybox-group="gallery">
                   <div class="work__slide-desc">
                     <div class="work__slide-date">Август 2016 год</div>
                     <div class="work__slide-comment">дер. Бурцево</div>
                   </div></a></div>
             </div>
             <div>
-              <div class="work__slide"><img src="images/work/49.jpg" alt="" class="work__slide-img"><a href="images/work/full/49.jpg" data-fancybox-group="gallery" class="work__slide-text fancy">
+              <div class="work__slide"><img class="work__slide-img" src="images/work/49.jpg" alt=""><a class="work__slide-text fancy" href="images/work/full/49.jpg" data-fancybox-group="gallery">
                   <div class="work__slide-desc">
                     <div class="work__slide-date">Август 2016 год</div>
                     <div class="work__slide-comment">дер. Новая Березовка</div>
                   </div></a></div>
             </div>
             <div>
-              <div class="work__slide"><img src="images/work/2.jpg" alt="" class="work__slide-img"><a href="images/work/full/2.jpg" data-fancybox-group="gallery" class="work__slide-text fancy">
+              <div class="work__slide"><img class="work__slide-img" src="images/work/2.jpg" alt=""><a class="work__slide-text fancy" href="images/work/full/2.jpg" data-fancybox-group="gallery">
                   <div class="work__slide-desc">
                     <div class="work__slide-date">Август 2016 год</div>
                     <div class="work__slide-comment">дер. Инютино</div>
                   </div></a></div>
             </div>
             <div>
-              <div class="work__slide"><img src="images/work/55.jpg" alt="" class="work__slide-img"><a href="images/work/full/55.jpg" data-fancybox-group="gallery" class="work__slide-text fancy">
+              <div class="work__slide"><img class="work__slide-img" src="images/work/55.jpg" alt=""><a class="work__slide-text fancy" href="images/work/full/55.jpg" data-fancybox-group="gallery">
                   <div class="work__slide-desc">
                     <div class="work__slide-date">Октябрь 2016 год</div>
                     <div class="work__slide-comment">дер. Новая Березовка</div>
                   </div></a></div>
             </div>
             <div>
-              <div class="work__slide"><img src="images/work/56.jpg" alt="" class="work__slide-img"><a href="images/work/full/56.jpg" data-fancybox-group="gallery" class="work__slide-text fancy">
+              <div class="work__slide"><img class="work__slide-img" src="images/work/56.jpg" alt=""><a class="work__slide-text fancy" href="images/work/full/56.jpg" data-fancybox-group="gallery">
                   <div class="work__slide-desc">
                     <div class="work__slide-date">Октябрь 2016 год</div>
                     <div class="work__slide-comment">дер. Новая Березовка</div>
                   </div></a></div>
             </div>
             <div>
-              <div class="work__slide"><img src="images/work/57.jpg" alt="" class="work__slide-img"><a href="images/work/full/57.jpg" data-fancybox-group="gallery" class="work__slide-text fancy">
+              <div class="work__slide"><img class="work__slide-img" src="images/work/57.jpg" alt=""><a class="work__slide-text fancy" href="images/work/full/57.jpg" data-fancybox-group="gallery">
                   <div class="work__slide-desc">
                     <div class="work__slide-date">Октябрь 2016 год</div>
                     <div class="work__slide-comment">дер. Новая Березовка</div>
                   </div></a></div>
             </div>
             <div>
-              <div class="work__slide"><img src="images/work/61.jpg" alt="" class="work__slide-img"><a href="images/work/full/61.jpg" data-fancybox-group="gallery" class="work__slide-text fancy">
+              <div class="work__slide"><img class="work__slide-img" src="images/work/61.jpg" alt=""><a class="work__slide-text fancy" href="images/work/full/61.jpg" data-fancybox-group="gallery">
                   <div class="work__slide-desc">
                     <div class="work__slide-date">Октябрь 2016 год</div>
                     <div class="work__slide-comment">пос. Ждановский</div>
                   </div></a></div>
             </div>
             <div>
-              <div class="work__slide"><img src="images/work/62.jpg" alt="" class="work__slide-img"><a href="images/work/full/62.jpg" data-fancybox-group="gallery" class="work__slide-text fancy">
+              <div class="work__slide"><img class="work__slide-img" src="images/work/62.jpg" alt=""><a class="work__slide-text fancy" href="images/work/full/62.jpg" data-fancybox-group="gallery">
                   <div class="work__slide-desc">
                     <div class="work__slide-date">Октябрь 2016 год</div>
                     <div class="work__slide-comment">пос. Ждановский</div>
                   </div></a></div>
             </div>
             <div>
-              <div class="work__slide"><img src="images/work/65.jpg" alt="" class="work__slide-img"><a href="images/work/full/65.jpg" data-fancybox-group="gallery" class="work__slide-text fancy">
+              <div class="work__slide"><img class="work__slide-img" src="images/work/65.jpg" alt=""><a class="work__slide-text fancy" href="images/work/full/65.jpg" data-fancybox-group="gallery">
                   <div class="work__slide-desc">
                     <div class="work__slide-date">Октябрь 2016 год</div>
                     <div class="work__slide-comment">Боталово</div>
                   </div></a></div>
             </div>
             <div>
-              <div class="work__slide"><img src="images/work/66.jpg" alt="" class="work__slide-img"><a href="images/work/full/66.jpg" data-fancybox-group="gallery" class="work__slide-text fancy">
+              <div class="work__slide"><img class="work__slide-img" src="images/work/66.jpg" alt=""><a class="work__slide-text fancy" href="images/work/full/66.jpg" data-fancybox-group="gallery">
                   <div class="work__slide-desc">
                     <div class="work__slide-date">Октябрь 2016 год</div>
                     <div class="work__slide-comment">Боталово</div>
                   </div></a></div>
             </div>
             <div>
-              <div class="work__slide"><img src="images/work/67.jpg" alt="" class="work__slide-img"><a href="images/work/full/67.jpg" data-fancybox-group="gallery" class="work__slide-text fancy">
+              <div class="work__slide"><img class="work__slide-img" src="images/work/67.jpg" alt=""><a class="work__slide-text fancy" href="images/work/full/67.jpg" data-fancybox-group="gallery">
                   <div class="work__slide-desc">
                     <div class="work__slide-date">Октябрь 2016 год</div>
                     <div class="work__slide-comment">Боталово</div>
                   </div></a></div>
             </div>
             <div>
-              <div class="work__slide"><img src="images/work/68.jpg" alt="" class="work__slide-img"><a href="images/work/full/68.jpg" data-fancybox-group="gallery" class="work__slide-text fancy">
+              <div class="work__slide"><img class="work__slide-img" src="images/work/68.jpg" alt=""><a class="work__slide-text fancy" href="images/work/full/68.jpg" data-fancybox-group="gallery">
                   <div class="work__slide-desc">
                     <div class="work__slide-date">Октябрь 2016 год</div>
                     <div class="work__slide-comment">Бурцево</div>
                   </div></a></div>
             </div>
             <div>
-              <div class="work__slide"><img src="images/work/69.jpg" alt="" class="work__slide-img"><a href="images/work/full/69.jpg" data-fancybox-group="gallery" class="work__slide-text fancy">
+              <div class="work__slide"><img class="work__slide-img" src="images/work/69.jpg" alt=""><a class="work__slide-text fancy" href="images/work/full/69.jpg" data-fancybox-group="gallery">
                   <div class="work__slide-desc">
                     <div class="work__slide-date">Октябрь 2016 год</div>
                     <div class="work__slide-comment">Бурцево</div>
                   </div></a></div>
             </div>
             <div>
-              <div class="work__slide"><img src="images/work/70.jpg" alt="" class="work__slide-img"><a href="images/work/full/70.jpg" data-fancybox-group="gallery" class="work__slide-text fancy">
+              <div class="work__slide"><img class="work__slide-img" src="images/work/70.jpg" alt=""><a class="work__slide-text fancy" href="images/work/full/70.jpg" data-fancybox-group="gallery">
                   <div class="work__slide-desc">
                     <div class="work__slide-date">Октябрь 2016 год</div>
                     <div class="work__slide-comment">Бурцево</div>
                   </div></a></div>
             </div>
           </div>
-          <div id="work__slider-2">				
+          <div id="work__slider-2">
             <div>
-              <div class="work__slide"><img src="images/work/45.jpg" alt="" class="work__slide-img"><a href="images/work/full/45.jpg" data-fancybox-group="gallery" class="work__slide-text fancy">
+              <div class="work__slide"><img class="work__slide-img" src="images/work/45.jpg" alt=""><a class="work__slide-text fancy" href="images/work/full/45.jpg" data-fancybox-group="gallery">
                   <div class="work__slide-desc">
                     <div class="work__slide-date">Август 2016 год</div>
                     <div class="work__slide-comment">дер. Новая Березовка</div>
                   </div></a></div>
             </div>
             <div>
-              <div class="work__slide"><img src="images/work/8.jpg" alt="" class="work__slide-img"><a href="images/work/full/8.jpg" data-fancybox-group="gallery" class="work__slide-text fancy">
+              <div class="work__slide"><img class="work__slide-img" src="images/work/8.jpg" alt=""><a class="work__slide-text fancy" href="images/work/full/8.jpg" data-fancybox-group="gallery">
                   <div class="work__slide-desc">
                     <div class="work__slide-date">Август 2016 год</div>
                     <div class="work__slide-comment">дер. Инютино</div>
                   </div></a></div>
             </div>
             <div>
-              <div class="work__slide"><img src="images/work/27.jpg" alt="" class="work__slide-img"><a href="images/work/full/27.jpg" data-fancybox-group="gallery" class="work__slide-text fancy">
+              <div class="work__slide"><img class="work__slide-img" src="images/work/27.jpg" alt=""><a class="work__slide-text fancy" href="images/work/full/27.jpg" data-fancybox-group="gallery">
                   <div class="work__slide-desc">
                     <div class="work__slide-date">Август 2016 год</div>
                     <div class="work__slide-comment">дер. Бурцево</div>
                   </div></a></div>
             </div>
             <div>
-              <div class="work__slide"><img src="images/work/1.jpg" alt="" class="work__slide-img"><a href="images/work/full/1.jpg" data-fancybox-group="gallery" class="work__slide-text fancy">
+              <div class="work__slide"><img class="work__slide-img" src="images/work/1.jpg" alt=""><a class="work__slide-text fancy" href="images/work/full/1.jpg" data-fancybox-group="gallery">
                   <div class="work__slide-desc">
                     <div class="work__slide-date">Август 2016 год</div>
                     <div class="work__slide-comment">дер. Инютино</div>
                   </div></a></div>
             </div>
             <div>
-              <div class="work__slide"><img src="images/work/53.jpg" alt="" class="work__slide-img"><a href="images/work/full/53.jpg" data-fancybox-group="gallery" class="work__slide-text fancy">
+              <div class="work__slide"><img class="work__slide-img" src="images/work/53.jpg" alt=""><a class="work__slide-text fancy" href="images/work/full/53.jpg" data-fancybox-group="gallery">
                   <div class="work__slide-desc">
                     <div class="work__slide-date">Август 2016 год</div>
                     <div class="work__slide-comment">дер. Новая Березовка</div>
                   </div></a></div>
             </div>
             <div>
-              <div class="work__slide"><img src="images/work/18.jpg" alt="" class="work__slide-img"><a href="images/work/full/18.jpg" data-fancybox-group="gallery" class="work__slide-text fancy">
+              <div class="work__slide"><img class="work__slide-img" src="images/work/18.jpg" alt=""><a class="work__slide-text fancy" href="images/work/full/18.jpg" data-fancybox-group="gallery">
                   <div class="work__slide-desc">
                     <div class="work__slide-date">Август 2016 год</div>
                     <div class="work__slide-comment">дер. Михальчиково</div>
                   </div></a></div>
             </div>
             <div>
-              <div class="work__slide"><img src="images/work/14.jpg" alt="" class="work__slide-img"><a href="images/work/full/14.jpg" data-fancybox-group="gallery" class="work__slide-text fancy">
+              <div class="work__slide"><img class="work__slide-img" src="images/work/14.jpg" alt=""><a class="work__slide-text fancy" href="images/work/full/14.jpg" data-fancybox-group="gallery">
                   <div class="work__slide-desc">
                     <div class="work__slide-date">Август 2016 год</div>
                     <div class="work__slide-comment">дер. Михальчиково</div>
                   </div></a></div>
             </div>
             <div>
-              <div class="work__slide"><img src="images/work/40.jpg" alt="" class="work__slide-img"><a href="images/work/full/40.jpg" data-fancybox-group="gallery" class="work__slide-text fancy">
+              <div class="work__slide"><img class="work__slide-img" src="images/work/40.jpg" alt=""><a class="work__slide-text fancy" href="images/work/full/40.jpg" data-fancybox-group="gallery">
                   <div class="work__slide-desc">
                     <div class="work__slide-date">Август 2016 год</div>
                     <div class="work__slide-comment">дер. Бурцево</div>
                   </div></a></div>
             </div>
             <div>
-              <div class="work__slide"><img src="images/work/51.jpg" alt="" class="work__slide-img"><a href="images/work/full/51.jpg" data-fancybox-group="gallery" class="work__slide-text fancy">
+              <div class="work__slide"><img class="work__slide-img" src="images/work/51.jpg" alt=""><a class="work__slide-text fancy" href="images/work/full/51.jpg" data-fancybox-group="gallery">
                   <div class="work__slide-desc">
                     <div class="work__slide-date">Август 2016 год</div>
                     <div class="work__slide-comment">дер. Новая Березовка</div>
                   </div></a></div>
             </div>
             <div>
-              <div class="work__slide"><img src="images/work/35.jpg" alt="" class="work__slide-img"><a href="images/work/full/35.jpg" data-fancybox-group="gallery" class="work__slide-text fancy">
+              <div class="work__slide"><img class="work__slide-img" src="images/work/35.jpg" alt=""><a class="work__slide-text fancy" href="images/work/full/35.jpg" data-fancybox-group="gallery">
                   <div class="work__slide-desc">
                     <div class="work__slide-date">Август 2016 год</div>
                     <div class="work__slide-comment">дер. Бурцево</div>
                   </div></a></div>
             </div>
             <div>
-              <div class="work__slide"><img src="images/work/3.jpg" alt="" class="work__slide-img"><a href="images/work/full/3.jpg" data-fancybox-group="gallery" class="work__slide-text fancy">
+              <div class="work__slide"><img class="work__slide-img" src="images/work/3.jpg" alt=""><a class="work__slide-text fancy" href="images/work/full/3.jpg" data-fancybox-group="gallery">
                   <div class="work__slide-desc">
                     <div class="work__slide-date">Август 2016 год</div>
                     <div class="work__slide-comment">дер. Инютино</div>
                   </div></a></div>
             </div>
             <div>
-              <div class="work__slide"><img src="images/work/5.jpg" alt="" class="work__slide-img"><a href="images/work/full/5.jpg" data-fancybox-group="gallery" class="work__slide-text fancy">
+              <div class="work__slide"><img class="work__slide-img" src="images/work/5.jpg" alt=""><a class="work__slide-text fancy" href="images/work/full/5.jpg" data-fancybox-group="gallery">
                   <div class="work__slide-desc">
                     <div class="work__slide-date">Август 2016 год</div>
                     <div class="work__slide-comment">дер. Инютино</div>
                   </div></a></div>
             </div>
             <div>
-              <div class="work__slide"><img src="images/work/48.jpg" alt="" class="work__slide-img"><a href="images/work/full/48.jpg" data-fancybox-group="gallery" class="work__slide-text fancy">
+              <div class="work__slide"><img class="work__slide-img" src="images/work/48.jpg" alt=""><a class="work__slide-text fancy" href="images/work/full/48.jpg" data-fancybox-group="gallery">
                   <div class="work__slide-desc">
                     <div class="work__slide-date">Август 2016 год</div>
                     <div class="work__slide-comment">дер. Новая Березовка</div>
                   </div></a></div>
             </div>
             <div>
-              <div class="work__slide"><img src="images/work/24.jpg" alt="" class="work__slide-img"><a href="images/work/full/24.jpg" data-fancybox-group="gallery" class="work__slide-text fancy">
+              <div class="work__slide"><img class="work__slide-img" src="images/work/24.jpg" alt=""><a class="work__slide-text fancy" href="images/work/full/24.jpg" data-fancybox-group="gallery">
                   <div class="work__slide-desc">
                     <div class="work__slide-date">Август 2016 год</div>
                     <div class="work__slide-comment">дер. Бурцево</div>
                   </div></a></div>
             </div>
             <div>
-              <div class="work__slide"><img src="images/work/34.jpg" alt="" class="work__slide-img"><a href="images/work/full/34.jpg" data-fancybox-group="gallery" class="work__slide-text fancy">
+              <div class="work__slide"><img class="work__slide-img" src="images/work/34.jpg" alt=""><a class="work__slide-text fancy" href="images/work/full/34.jpg" data-fancybox-group="gallery">
                   <div class="work__slide-desc">
                     <div class="work__slide-date">Август 2016 год</div>
                     <div class="work__slide-comment">дер. Бурцево</div>
                   </div></a></div>
             </div>
             <div>
-              <div class="work__slide"><img src="images/work/15.jpg" alt="" class="work__slide-img"><a href="images/work/full/15.jpg" data-fancybox-group="gallery" class="work__slide-text fancy">
+              <div class="work__slide"><img class="work__slide-img" src="images/work/15.jpg" alt=""><a class="work__slide-text fancy" href="images/work/full/15.jpg" data-fancybox-group="gallery">
                   <div class="work__slide-desc">
                     <div class="work__slide-date">Август 2016 год</div>
                     <div class="work__slide-comment">дер. Михальчиково</div>
                   </div></a></div>
             </div>
             <div>
-              <div class="work__slide"><img src="images/work/44.jpg" alt="" class="work__slide-img"><a href="images/work/full/44.jpg" data-fancybox-group="gallery" class="work__slide-text fancy">
+              <div class="work__slide"><img class="work__slide-img" src="images/work/44.jpg" alt=""><a class="work__slide-text fancy" href="images/work/full/44.jpg" data-fancybox-group="gallery">
                   <div class="work__slide-desc">
                     <div class="work__slide-date">Август 2016 год</div>
                     <div class="work__slide-comment">дер. Новая Березовка</div>
                   </div></a></div>
             </div>
             <div>
-              <div class="work__slide"><img src="images/work/16.jpg" alt="" class="work__slide-img"><a href="images/work/full/16.jpg" data-fancybox-group="gallery" class="work__slide-text fancy">
+              <div class="work__slide"><img class="work__slide-img" src="images/work/16.jpg" alt=""><a class="work__slide-text fancy" href="images/work/full/16.jpg" data-fancybox-group="gallery">
                   <div class="work__slide-desc">
                     <div class="work__slide-date">Август 2016 год</div>
                     <div class="work__slide-comment">дер. Михальчиково</div>
                   </div></a></div>
             </div>
             <div>
-              <div class="work__slide"><img src="images/work/32.jpg" alt="" class="work__slide-img"><a href="images/work/full/32.jpg" data-fancybox-group="gallery" class="work__slide-text fancy">
+              <div class="work__slide"><img class="work__slide-img" src="images/work/32.jpg" alt=""><a class="work__slide-text fancy" href="images/work/full/32.jpg" data-fancybox-group="gallery">
                   <div class="work__slide-desc">
                     <div class="work__slide-date">Август 2016 год</div>
                     <div class="work__slide-comment">дер. Бурцево</div>
                   </div></a></div>
             </div>
             <div>
-              <div class="work__slide"><img src="images/work/33.jpg" alt="" class="work__slide-img"><a href="images/work/full/33.jpg" data-fancybox-group="gallery" class="work__slide-text fancy">
+              <div class="work__slide"><img class="work__slide-img" src="images/work/33.jpg" alt=""><a class="work__slide-text fancy" href="images/work/full/33.jpg" data-fancybox-group="gallery">
                   <div class="work__slide-desc">
                     <div class="work__slide-date">Август 2016 год</div>
                     <div class="work__slide-comment">дер. Бурцево</div>
                   </div></a></div>
             </div>
             <div>
-              <div class="work__slide"><img src="images/work/54.jpg" alt="" class="work__slide-img"><a href="images/work/full/54.jpg" data-fancybox-group="gallery" class="work__slide-text fancy">
+              <div class="work__slide"><img class="work__slide-img" src="images/work/54.jpg" alt=""><a class="work__slide-text fancy" href="images/work/full/54.jpg" data-fancybox-group="gallery">
                   <div class="work__slide-desc">
                     <div class="work__slide-date">Август 2016 год</div>
                     <div class="work__slide-comment">дер. Новая Березовка</div>
                   </div></a></div>
             </div>
             <div>
-              <div class="work__slide"><img src="images/work/19.jpg" alt="" class="work__slide-img"><a href="images/work/full/19.jpg" data-fancybox-group="gallery" class="work__slide-text fancy">
+              <div class="work__slide"><img class="work__slide-img" src="images/work/19.jpg" alt=""><a class="work__slide-text fancy" href="images/work/full/19.jpg" data-fancybox-group="gallery">
                   <div class="work__slide-desc">
                     <div class="work__slide-date">Август 2016 год</div>
                     <div class="work__slide-comment">дер. Бурцево</div>
                   </div></a></div>
             </div>
             <div>
-              <div class="work__slide"><img src="images/work/26.jpg" alt="" class="work__slide-img"><a href="images/work/full/26.jpg" data-fancybox-group="gallery" class="work__slide-text fancy">
+              <div class="work__slide"><img class="work__slide-img" src="images/work/26.jpg" alt=""><a class="work__slide-text fancy" href="images/work/full/26.jpg" data-fancybox-group="gallery">
                   <div class="work__slide-desc">
                     <div class="work__slide-date">Август 2016 год</div>
                     <div class="work__slide-comment">дер. Бурцево</div>
                   </div></a></div>
             </div>
             <div>
-              <div class="work__slide"><img src="images/work/12.jpg" alt="" class="work__slide-img"><a href="images/work/full/12.jpg" data-fancybox-group="gallery" class="work__slide-text fancy">
+              <div class="work__slide"><img class="work__slide-img" src="images/work/12.jpg" alt=""><a class="work__slide-text fancy" href="images/work/full/12.jpg" data-fancybox-group="gallery">
                   <div class="work__slide-desc">
                     <div class="work__slide-date">Август 2016 год</div>
                     <div class="work__slide-comment">дер. Михальчиково</div>
                   </div></a></div>
             </div>
             <div>
-              <div class="work__slide"><img src="images/work/38.jpg" alt="" class="work__slide-img"><a href="images/work/full/38.jpg" data-fancybox-group="gallery" class="work__slide-text fancy">
-                  <div class="work__slide-desc">
-                    <div class="work__slide-date">Август 2016 год</div>
-                    <div class="work__slide-comment">дер. Бурцево</div>
-                  </div></a></div>
-            </div>
-            <div>		
-              <div class="work__slide"><img src="images/work/31.jpg" alt="" class="work__slide-img"><a href="images/work/full/31.jpg" data-fancybox-group="gallery" class="work__slide-text fancy">
+              <div class="work__slide"><img class="work__slide-img" src="images/work/38.jpg" alt=""><a class="work__slide-text fancy" href="images/work/full/38.jpg" data-fancybox-group="gallery">
                   <div class="work__slide-desc">
                     <div class="work__slide-date">Август 2016 год</div>
                     <div class="work__slide-comment">дер. Бурцево</div>
                   </div></a></div>
             </div>
             <div>
-              <div class="work__slide"><img src="images/work/17.jpg" alt="" class="work__slide-img"><a href="images/work/full/17.jpg" data-fancybox-group="gallery" class="work__slide-text fancy">
+              <div class="work__slide"><img class="work__slide-img" src="images/work/31.jpg" alt=""><a class="work__slide-text fancy" href="images/work/full/31.jpg" data-fancybox-group="gallery">
+                  <div class="work__slide-desc">
+                    <div class="work__slide-date">Август 2016 год</div>
+                    <div class="work__slide-comment">дер. Бурцево</div>
+                  </div></a></div>
+            </div>
+            <div>
+              <div class="work__slide"><img class="work__slide-img" src="images/work/17.jpg" alt=""><a class="work__slide-text fancy" href="images/work/full/17.jpg" data-fancybox-group="gallery">
                   <div class="work__slide-desc">
                     <div class="work__slide-date">Август 2016 год</div>
                     <div class="work__slide-comment">дер. Михальчиково</div>
                   </div></a></div>
             </div>
             <div>
-              <div class="work__slide"><img src="images/work/58.jpg" alt="" class="work__slide-img"><a href="images/work/full/58.jpg" data-fancybox-group="gallery" class="work__slide-text fancy">
+              <div class="work__slide"><img class="work__slide-img" src="images/work/58.jpg" alt=""><a class="work__slide-text fancy" href="images/work/full/58.jpg" data-fancybox-group="gallery">
                   <div class="work__slide-desc">
                     <div class="work__slide-date">Октябрь 2016 год</div>
                     <div class="work__slide-comment">к.п. Лето</div>
                   </div></a></div>
             </div>
             <div>
-              <div class="work__slide"><img src="images/work/59.jpg" alt="" class="work__slide-img"><a href="images/work/full/59.jpg" data-fancybox-group="gallery" class="work__slide-text fancy">
+              <div class="work__slide"><img class="work__slide-img" src="images/work/59.jpg" alt=""><a class="work__slide-text fancy" href="images/work/full/59.jpg" data-fancybox-group="gallery">
                   <div class="work__slide-desc">
                     <div class="work__slide-date">Октябрь 2016 год</div>
                     <div class="work__slide-comment">к.п. Лето</div>
                   </div></a></div>
             </div>
             <div>
-              <div class="work__slide"><img src="images/work/60.jpg" alt="" class="work__slide-img"><a href="images/work/full/60.jpg" data-fancybox-group="gallery" class="work__slide-text fancy">
+              <div class="work__slide"><img class="work__slide-img" src="images/work/60.jpg" alt=""><a class="work__slide-text fancy" href="images/work/full/60.jpg" data-fancybox-group="gallery">
                   <div class="work__slide-desc">
                     <div class="work__slide-date">Октябрь 2016 год</div>
                     <div class="work__slide-comment">к.п. Лето</div>
                   </div></a></div>
             </div>
             <div>
-              <div class="work__slide"><img src="images/work/63.jpg" alt="" class="work__slide-img"><a href="images/work/full/63.jpg" data-fancybox-group="gallery" class="work__slide-text fancy">
+              <div class="work__slide"><img class="work__slide-img" src="images/work/63.jpg" alt=""><a class="work__slide-text fancy" href="images/work/full/63.jpg" data-fancybox-group="gallery">
                   <div class="work__slide-desc">
                     <div class="work__slide-date">Октябрь 2016 год</div>
                     <div class="work__slide-comment">пос. Ждановский</div>
                   </div></a></div>
             </div>
             <div>
-              <div class="work__slide"><img src="images/work/64.jpg" alt="" class="work__slide-img"><a href="images/work/full/64.jpg" data-fancybox-group="gallery" class="work__slide-text fancy">
+              <div class="work__slide"><img class="work__slide-img" src="images/work/64.jpg" alt=""><a class="work__slide-text fancy" href="images/work/full/64.jpg" data-fancybox-group="gallery">
                   <div class="work__slide-desc">
                     <div class="work__slide-date">Октябрь 2016 год</div>
                     <div class="work__slide-comment">пос. Ждановский</div>
                   </div></a></div>
             </div>
             <div>
-              <div class="work__slide"><img src="images/work/71.jpg" alt="" class="work__slide-img"><a href="images/work/full/71.jpg" data-fancybox-group="gallery" class="work__slide-text fancy">
+              <div class="work__slide"><img class="work__slide-img" src="images/work/71.jpg" alt=""><a class="work__slide-text fancy" href="images/work/full/71.jpg" data-fancybox-group="gallery">
                   <div class="work__slide-desc">
                     <div class="work__slide-date">Октябрь 2016 год</div>
                     <div class="work__slide-comment">Бурцево</div>
                   </div></a></div>
             </div>
             <div>
-              <div class="work__slide"><img src="images/work/72.jpg" alt="" class="work__slide-img"><a href="images/work/full/72.jpg" data-fancybox-group="gallery" class="work__slide-text fancy">
+              <div class="work__slide"><img class="work__slide-img" src="images/work/72.jpg" alt=""><a class="work__slide-text fancy" href="images/work/full/72.jpg" data-fancybox-group="gallery">
                   <div class="work__slide-desc">
                     <div class="work__slide-date">Октябрь 2016 год</div>
                     <div class="work__slide-comment">Бурцево</div>
                   </div></a></div>
             </div>
             <div>
-              <div class="work__slide"><img src="images/work/73.jpg" alt="" class="work__slide-img"><a href="images/work/full/73.jpg" data-fancybox-group="gallery" class="work__slide-text fancy">
+              <div class="work__slide"><img class="work__slide-img" src="images/work/73.jpg" alt=""><a class="work__slide-text fancy" href="images/work/full/73.jpg" data-fancybox-group="gallery">
                   <div class="work__slide-desc">
                     <div class="work__slide-date">Октябрь 2016 год</div>
                     <div class="work__slide-comment">Бурцево</div>
                   </div></a></div>
             </div>
             <div>
-              <div class="work__slide"><img src="images/work/74.jpg" alt="" class="work__slide-img"><a href="images/work/full/74.jpg" data-fancybox-group="gallery" class="work__slide-text fancy">
+              <div class="work__slide"><img class="work__slide-img" src="images/work/74.jpg" alt=""><a class="work__slide-text fancy" href="images/work/full/74.jpg" data-fancybox-group="gallery">
                   <div class="work__slide-desc">
                     <div class="work__slide-date">Октябрь 2016 год</div>
                     <div class="work__slide-comment">Бурцево</div>
                   </div></a></div>
             </div>
             <div>
-              <div class="work__slide"><img src="images/work/75.jpg" alt="" class="work__slide-img"><a href="images/work/full/75.jpg" data-fancybox-group="gallery" class="work__slide-text fancy">
+              <div class="work__slide"><img class="work__slide-img" src="images/work/75.jpg" alt=""><a class="work__slide-text fancy" href="images/work/full/75.jpg" data-fancybox-group="gallery">
                   <div class="work__slide-desc">
                     <div class="work__slide-date">Октябрь 2016 год</div>
                     <div class="work__slide-comment">Бурцево</div>
                   </div></a></div>
             </div>
             <div>
-              <div class="work__slide"><img src="images/work/76.jpg" alt="" class="work__slide-img"><a href="images/work/full/76.jpg" data-fancybox-group="gallery" class="work__slide-text fancy">
+              <div class="work__slide"><img class="work__slide-img" src="images/work/76.jpg" alt=""><a class="work__slide-text fancy" href="images/work/full/76.jpg" data-fancybox-group="gallery">
                   <div class="work__slide-desc">
                     <div class="work__slide-date">Октябрь 2016 год</div>
                     <div class="work__slide-comment">Бурцево</div>
@@ -1304,7 +834,7 @@
           </div>
         </div>
       </div>
-      <div id="tab-2" class="container">
+      <div class="container" id="tab-2">
         <div class="row">
           <div class="col-xs-14">
             <div class="work__video">
@@ -1318,55 +848,30 @@
       <div class="container">
         <div class="row">
           <div class="col-xs-14">
-            <h2 data-wow-duration="2s" class="header-decoration text-uppercase steps__title wow bounce">4 шага к фундаменту</h2>
+            <h2 class="header-decoration text-uppercase steps__title wow bounce" data-wow-duration="2s">4 шага к фундаменту</h2>
             <div class="steps__items clearfix">
-              <div data-wow-duration="2s" class="steps__item wow bounceInLeft">
+              <div class="steps__item wow bounceInLeft" data-wow-duration="2s">
                 <div class="steps__item-pr"><span class="i-steps-1"></span></div>
                 <div class="steps__item-title">Звонок</div>
-                <div class="steps__item-desc">
-                  Свяжитесь с нами 
-                  сразу или закажите 
-                  звонок на удобное 
-                  для Вас время.
-                </div>
+                <div class="steps__item-desc">Вы связываетесь с нами любым доступным способом и мы договоримся о встрече</div>
               </div>
-              <div data-wow-delay="0.1s" data-wow-duration="2s" class="steps__item wow bounceInLeft">
+              <div class="steps__item wow bounceInLeft" data-wow-delay="0.1s" data-wow-duration="2s">
                 <div class="steps__item-pr"><span class="i-steps-2"></span></div>
                 <div class="steps__item-title">Обсуждение</div>
-                <div class="steps__item-desc">
-                  Мы изучим все 
-                  детали проекта и 
-                  предложим Вам 
-                  несколько вариантов 
-                  по его реализации и, 
-                  придя к соглашению, 
-                  подписываем договор.
-                </div>
+                <div class="steps__item-desc">Вы приезжаете к нам в офис и обсуждаем все детали проекта. </div>
               </div>
-              <div data-wow-delay="0.2s" data-wow-duration="2s" class="steps__item wow bounceInLeft">
+              <div class="steps__item wow bounceInLeft" data-wow-delay="0.2s" data-wow-duration="2s">
                 <div class="steps__item-pr"><span class="i-steps-3"></span></div>
                 <div class="steps__item-title">Выезд</div>
-                <div class="steps__item-desc">
-                  В оговорённое время 
-                  доставляем сами сваи и 
-                  сваебойную установку 
-                  на Ваш участок 
-                  и приступаем.
-                </div>
+                <div class="steps__item-desc">Мы приезжаем на Ваш участок для осмотра и последующего заключения договора. </div>
               </div>
-              <div data-wow-delay="0.3s" data-wow-duration="2s" class="steps__item wow bounceInLeft">
+              <div class="steps__item wow bounceInLeft" data-wow-delay="0.3s" data-wow-duration="2s">
                 <div class="steps__item-pr"><span class="i-steps-4"></span></div>
-                <div class="steps__item-title">Фундамент</div>
-                <div class="steps__item-desc">
-                  Делаем разметку 
-                  свайного поля, забиваем 
-                  сваи. Продолжать 
-                  строительство 
-                  можно сразу.
-                </div>
+                <div class="steps__item-title">Строительство</div>
+                <div class="steps__item-desc">Строим надежный фундамент для Вашего дома. </div>
               </div>
             </div>
-            <p class="steps__slogan wow bounceInUp">Таким образом от Вашего решения до готового фундамента <br>может пройти всего пара дней!</p><a href="#call" data-wow-iteration="3" data-wow-duration="2s" class="steps__btn btn btn-arrow btn-green fancy wow pulse">Заказать звонок</a>
+            <p class="steps__slogan wow bounceInUp">Заказав фундамент у нас Вы исключите трудоемкие этапы работы, оптимизируете строительный процесс и сохраните ландшафт участка.</p><a class="steps__btn btn btn-arrow btn-green fancy wow pulse" href="#call" data-wow-iteration="3" data-wow-duration="2s">Заказать фундамент</a>
           </div>
         </div>
       </div>
@@ -1375,8 +880,8 @@
       <div class="container">
         <div class="row">
           <div class="col-xs-14">
-            <h2 data-wow-duration="2s" class="text-uppercase header-decoration reviews__title wow bounce">Слово заказчикам</h2>
-            <p data-wow-duration="2s" class="reviews__slogan wow bounceInUp">За год применения такой технологии в частном домостроении <br>построено более 200 домов, и вот малая часть отзывов наших заказчиков:</p>
+            <h2 class="text-uppercase header-decoration reviews__title wow bounce" data-wow-duration="2s">Слово заказчикам</h2>
+            <p class="reviews__slogan wow bounceInUp" data-wow-duration="2s">За год применения такой технологии в частном домостроении <br>построено более 200 домов, и вот малая часть отзывов наших заказчиков:</p>
             <div class="reviews__slider">
               <div>
                 <div class="reviews__slide-desc">Долго не мог выбрать на каком фундаменте остановиться. Связался с разными компаниями и каждая из них, конечно настаивала на своем варианте. Но СВАЯЖ делали это как то убедительнее и просто по человечески приятнее) Остановил выбор на них и остался крайне очень доволен! Если собрались строиться обращайтесь к ним смело!</div>
@@ -1401,25 +906,25 @@
       <div class="container">
         <div class="row">
           <div class="col-xs-14">
-            <h2 data-wow-duration="2s" class="partners__title text-uppercase header-decoration wow bounce">Наши партнеры</h2>
+            <h2 class="partners__title text-uppercase header-decoration wow bounce" data-wow-duration="2s">Наши партнеры</h2>
             <div class="partners__slider">
               <div>
-                <div class="partners__slide"><a href="http://ARCLIP.ru" target="_blank"><img src="images/partners/1.png" alt="ARCLIP" class="partners__logo"></a></div>
+                <div class="partners__slide"><a href="http://ARCLIP.ru" target="_blank"><img class="partners__logo" src="images/partners/1.png" alt="ARCLIP"></a></div>
               </div>
               <div>
-                <div class="partners__slide"><a href="http://rada-nn.ru/" target="_blank"><img src="images/partners/2.png" alt="Рада строй" class="partners__logo"></a></div>
+                <div class="partners__slide"><a href="http://rada-nn.ru/" target="_blank"><img class="partners__logo" src="images/partners/2.png" alt="Рада строй"></a></div>
               </div>
               <div>
-                <div class="partners__slide"><a href="http://gwd.ru" target="_blank"><img src="images/partners/3.png" alt="GOOD WOOD" class="partners__logo"></a></div>
+                <div class="partners__slide"><a href="http://gwd.ru" target="_blank"><img class="partners__logo" src="images/partners/3.png" alt="GOOD WOOD"></a></div>
               </div>
               <div>
-                <div class="partners__slide"><a href="http://ARCLIP.ru" target="_blank"><img src="images/partners/1.png" alt="ARCLIP" class="partners__logo"></a></div>
+                <div class="partners__slide"><a href="http://ARCLIP.ru" target="_blank"><img class="partners__logo" src="images/partners/1.png" alt="ARCLIP"></a></div>
               </div>
               <div>
-                <div class="partners__slide"><a href="http://rada-nn.ru/" target="_blank"><img src="images/partners/2.png" alt="Рада строй" class="partners__logo"></a></div>
+                <div class="partners__slide"><a href="http://rada-nn.ru/" target="_blank"><img class="partners__logo" src="images/partners/2.png" alt="Рада строй"></a></div>
               </div>
               <div>
-                <div class="partners__slide"><a href="http://gwd.ru" target="_blank"><img src="images/partners/3.png" alt="GOOD WOOD" class="partners__logo"></a></div>
+                <div class="partners__slide"><a href="http://gwd.ru" target="_blank"><img class="partners__logo" src="images/partners/3.png" alt="GOOD WOOD"></a></div>
               </div>
             </div>
           </div>
@@ -1429,7 +934,7 @@
     <header class="header">
       <div class="container">
         <div class="row">
-          <div class="col-xs-14 col-sm-2 col-lg-2"><img src="images/logo.svg" alt="Логотип: Сваяж" width="180" height="80" class="header__logo"></div>
+          <div class="col-xs-14 col-sm-2 col-lg-2"><img class="header__logo" src="images/logo.svg" alt="Логотип: Сваяж" width="180" height="80"></div>
           <div class="col-xs-14 col-sm-12 col-lg-offset-2 col-lg-10">
             <ul class="contacts header__contacts">
               <li class="contacts__item contacts__item--target">г. Нижний Новгород, <br>пр-кт Ленина, д. 11, офис 416</li>
@@ -1441,33 +946,44 @@
       </div>
     </header>
     <div class="hidden">
-      <div id="call" class="popup">
+      <div class="popup" id="call">
         <h4 class="popup__title">Обратный звонок</h4>
         <form action="mail.php" method="post">
           <div class="form-group">
-            <input type="text" placeholder="Имя" name="name" required class="form-control input--name">
+            <input class="form-control input--name" type="text" placeholder="Имя" name="name" required>
           </div>
           <div class="form-group">
-            <input type="text" placeholder="Телефон" name="phone" required class="form-control input--phone">
+            <input class="form-control input--phone" type="text" placeholder="Телефон" name="phone" required>
           </div>
-          <button type="submit" class="btn btn-white btn-block popup__btn">Заказать</button>
+          <button class="btn btn-white btn-block popup__btn" type="submit">Заказать</button>
         </form>
       </div>
-      <div id="mail" class="popup">
+      <div class="popup" id="mail">
         <h4 class="popup__title">Заказ <br>Обратный звонок</h4>
         <form action="mail.php" method="post">
           <div class="form-group">
-            <input type="text" placeholder="Имя" name="name" required class="form-control input--name">
+            <input class="form-control input--name" type="text" placeholder="Имя" name="name" required>
           </div>
           <div class="form-group">
-            <input type="email" placeholder="Email" name="phone" required class="form-control input--phone">
+            <input class="form-control input--phone" type="email" placeholder="Email" name="phone" required>
           </div>
-          <button type="submit" class="btn btn-white btn-block popup__btn">Заказать</button>
+          <button class="btn btn-white btn-block popup__btn" type="submit">Заказать</button>
         </form>
       </div>
-      <div id="success" class="popup">
+      <div class="popup" id="success">
         <h5 class="popup__title">Спасибо!<br>Ждите звонка!</h5>
       </div>
-    </div><a id="toTop" class="toUp"></a>
+    </div><a class="toUp" id="toTop"></a>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&amp;subset=cyrillic">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
+    <script src="js/jquery.form.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
