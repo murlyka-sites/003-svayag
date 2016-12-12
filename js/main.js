@@ -1,15 +1,19 @@
 $(document).ready(function() {
 
 	$("#work__slider-1").slick({
+		lazyLoad: 'ondemand',
 		centerMode: true,
 		variableWidth: true,
 		slidesToShow: 8,
 		asNavFor: "#work__slider-2"
 	});
 
-	$("#tab-1").addClass("hidden");
+	$("#work__slider-2").on("init", function(event, slick, direction) {
+		$("#tab-1").addClass("tabs-hidden");
+	});
 	
 	$("#work__slider-2").slick({
+		lazyLoad: 'ondemand',
 		centerMode: true,
 		variableWidth: true,
 		slidesToShow: 8,
@@ -34,10 +38,10 @@ $(document).ready(function() {
 			return false;
 		}
 
-		$(exActive.data("href")).addClass("hidden");
+		$(exActive.data("href")).addClass("tabs-hidden");
 		exActive.removeClass("active");
 
-		$($this.data("href")).removeClass("hidden");
+		$($this.data("href")).removeClass("tabs-hidden");
 		$this.addClass("active");
 
 		return false;
@@ -83,9 +87,9 @@ $(document).ready(function() {
 });
 
 $(window).on("load", function() {
-	// if(!isMobile.any) {
+	if(!isMobile.any) {
 		new WOW().init();
-	// }
+	}
 });
 
 (function($) {

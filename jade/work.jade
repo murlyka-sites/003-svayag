@@ -1,3 +1,14 @@
+mixin work-item(data)
+	div
+		.work__slide
+			img.work__slide-img(data-lazy='images/work/' + data.n + '.jpg', alt="")
+			a.work__slide-text.fancy(href='images/work/full/' + data.n + '.jpg', data-fancybox-group="gallery")
+				.work__slide-desc
+					.work__slide-date
+						| #{data.date}
+					.work__slide-comment
+						| #{data.comment}
+include items.jade
 .work
 	.container
 		.row
@@ -14,89 +25,89 @@
 	.clearfix#tab-1
 		.work__slider
 			#work__slider-1
-				include items/7.jade
-				include items/20.jade
-				include items/39.jade
-				include items/13.jade
-				include items/43.jade
-				include items/30.jade
-				include items/28.jade
-				include items/22.jade
-				include items/46.jade
-				include items/52.jade
-				include items/21.jade
-				include items/41.jade
-				include items/47.jade
-				include items/4.jade
-				include items/36.jade
-				include items/11.jade
-				include items/6.jade
-				include items/25.jade
-				include items/10.jade
-				include items/50.jade
-				include items/29.jade
-				include items/42.jade
-				include items/9.jade
-				include items/23.jade
-				include items/37.jade
-				include items/49.jade
-				include items/2.jade
-				include items/55.jade
-				include items/56.jade
-				include items/57.jade
-				include items/61.jade
-				include items/62.jade
-				include items/65.jade
-				include items/66.jade
-				include items/67.jade
-				include items/68.jade
-				include items/69.jade
-				include items/70.jade
-				include items/80.jade
-				include items/81.jade
-				include items/82.jade
+				+work-item(items[7-1])
+				+work-item(items[20-1])
+				+work-item(items[39-1])
+				+work-item(items[13-1])
+				+work-item(items[43-1])
+				+work-item(items[30-1])
+				+work-item(items[28-1])
+				+work-item(items[22-1])
+				+work-item(items[46-1])
+				+work-item(items[52-1])
+				+work-item(items[21-1])
+				+work-item(items[41-1])
+				+work-item(items[47-1])
+				+work-item(items[4-1])
+				+work-item(items[36-1])
+				+work-item(items[11-1])
+				+work-item(items[6-1])
+				+work-item(items[25-1])
+				+work-item(items[10-1])
+				+work-item(items[50-1])
+				+work-item(items[29-1])
+				+work-item(items[42-1])
+				+work-item(items[9-1])
+				+work-item(items[23-1])
+				+work-item(items[37-1])
+				+work-item(items[49-1])
+				+work-item(items[2-1])
+				+work-item(items[55-1])
+				+work-item(items[56-1])
+				+work-item(items[57-1])
+				+work-item(items[61-1])
+				+work-item(items[62-1])
+				+work-item(items[65-1])
+				+work-item(items[66-1])
+				+work-item(items[67-1])
+				+work-item(items[68-1])
+				+work-item(items[69-1])
+				+work-item(items[70-1])
+				+work-item(items[80-1])
+				+work-item(items[81-1])
+				+work-item(items[82-1])
 			#work__slider-2
-				include items/45.jade
-				include items/8.jade
-				include items/27.jade
-				include items/1.jade
-				include items/53.jade
-				include items/18.jade
-				include items/14.jade
-				include items/40.jade
-				include items/51.jade
-				include items/35.jade
-				include items/3.jade
-				include items/5.jade
-				include items/48.jade
-				include items/24.jade
-				include items/34.jade
-				include items/15.jade
-				include items/44.jade
-				include items/16.jade
-				include items/32.jade
-				include items/33.jade
-				include items/54.jade
-				include items/19.jade
-				include items/26.jade
-				include items/12.jade
-				include items/38.jade
-				include items/31.jade
-				include items/17.jade
-				include items/58.jade
-				include items/59.jade
-				include items/60.jade
-				include items/63.jade
-				include items/64.jade
-				include items/71.jade
-				include items/72.jade
-				include items/73.jade
-				include items/74.jade
-				include items/75.jade
-				include items/76.jade
-				include items/77.jade
-				include items/78.jade
-				include items/79.jade
+				+work-item(items[45-1])
+				+work-item(items[8-1])
+				+work-item(items[27-1])
+				+work-item(items[1-1])
+				+work-item(items[53-1])
+				+work-item(items[18-1])
+				+work-item(items[14-1])
+				+work-item(items[40-1])
+				+work-item(items[51-1])
+				+work-item(items[35-1])
+				+work-item(items[3-1])
+				+work-item(items[5-1])
+				+work-item(items[48-1])
+				+work-item(items[24-1])
+				+work-item(items[34-1])
+				+work-item(items[15-1])
+				+work-item(items[44-1])
+				+work-item(items[16-1])
+				+work-item(items[32-1])
+				+work-item(items[33-1])
+				+work-item(items[54-1])
+				+work-item(items[19-1])
+				+work-item(items[26-1])
+				+work-item(items[12-1])
+				+work-item(items[38-1])
+				+work-item(items[31-1])
+				+work-item(items[17-1])
+				+work-item(items[58-1])
+				+work-item(items[59-1])
+				+work-item(items[60-1])
+				+work-item(items[63-1])
+				+work-item(items[64-1])
+				+work-item(items[71-1])
+				+work-item(items[72-1])
+				+work-item(items[73-1])
+				+work-item(items[74-1])
+				+work-item(items[75-1])
+				+work-item(items[76-1])
+				+work-item(items[77-1])
+				+work-item(items[78-1])
+				+work-item(items[79-1])
 	.container#tab-2
 		.row
 			.col-xs-14
