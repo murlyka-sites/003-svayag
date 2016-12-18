@@ -1,5 +1,7 @@
 $(document).ready(function() {
 
+	
+
 	$("#work__slider-1").slick({
 		lazyLoad: 'ondemand',
 		centerMode: true,
@@ -88,7 +90,13 @@ $(document).ready(function() {
 
 $(window).on("load", function() {
 	if(!isMobile.any) {
-		new WOW().init();
+		// new WOW().init();
+		$(".sf").snowfall({
+			flakeCount:100,
+			image :"images/snowflake-icon.png",
+			minSize: 10,
+			maxSize: 32
+		});
 	}
 });
 
