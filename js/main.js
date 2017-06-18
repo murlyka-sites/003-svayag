@@ -81,6 +81,7 @@ $(document).ready(function() {
 			$form.trigger("reset");
 			$.fancybox("#success", {padding: 0});
 			yaCounter39795505.reachGoal("call");
+			ga('send', 'event', 'form', 'call');
 		}
 	});
 
@@ -90,13 +91,13 @@ $(document).ready(function() {
 
 $(window).on("load", function() {
 	if(!isMobile.any) {
-		// new WOW().init();
-		$(".sf").snowfall({
-			flakeCount:100,
-			image :"images/snowflake-icon.png",
-			minSize: 10,
-			maxSize: 32
-		});
+		new WOW().init();
+		// $(".sf").snowfall({
+		// 	flakeCount: 100,
+		// 	image: "images/snowflake-icon.png",
+		// 	minSize: 10,
+		// 	maxSize: 32
+		// });
 	}
 });
 
